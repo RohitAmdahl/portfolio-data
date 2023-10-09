@@ -23,7 +23,7 @@ const HomePage: React.FC = () => {
       <div className="container mx-auto max-w-2xl p-4 m-3 border-t-2 border-gray-400">
         <ul className="flex justify-between cursor-pointer m-4">
           <li
-            className="px-2 py-2 bg-gray-300 rounded-full hover:bg-slate-200 shadow-lg shadow-slate-300 "
+            className="px-2 py-2 bg-gray-100 rounded-full hover:text-blue-700 font-bold shadow-xl"
             title="Linkedin"
           >
             <Link to="https://www.linkedin.com/feed/" target="_blank">
@@ -31,15 +31,15 @@ const HomePage: React.FC = () => {
             </Link>
           </li>
           <li
-            className="px-2 py-2 bg-gray-300 rounded-full hover:bg-slate-200 shadow-lg shadow-slate-300 "
-            title="github"
+            className="px-2 py-2 bg-gray-100 rounded-full hover:text-blue-700 font-bold shadow-xl"
+            title="Github"
           >
             <Link to="https://github.com/RohitAmdahl" target="_blank">
               <BsGithub size={25} />
             </Link>
           </li>
           <li
-            className="px-2 py-2 bg-gray-300 rounded-full  hover:bg-slate-200 shadow-lg shadow-slate-300 "
+            className="px-2 py-2 bg-gray-100 rounded-full hover:text-blue-700 font-bold shadow-xl"
             title="Email"
           >
             <Link to="mailto:rohit_dsigner@outlook.com" target="_blank">
@@ -47,7 +47,7 @@ const HomePage: React.FC = () => {
             </Link>
           </li>
           <li
-            className="px-2 py-2 bg-gray-300 rounded-full hover:bg-slate-200 shadow-lg shadow-slate-300 "
+            className="px-2 py-2 bg-gray-100 shadow-xl rounded-full hover:text-blue-700 font-bold "
             title="CV Pdf file"
           >
             <span className="">
