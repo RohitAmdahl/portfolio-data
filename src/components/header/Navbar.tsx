@@ -6,35 +6,39 @@ import { NavLink } from "react-router-dom";
 
 const Navbar: React.FC = () => {
   return (
-    <div className="container max-w-4xl mx-auto flex justify-between items-center font-serif">
-      <div className="">
-        <div className="m-4 ">
-          <NavLink to="/">
-            <img
-              src={logo}
-              alt="logo"
-              className="w-auto h-auto max-w-mdSize flex items-center"
-            />
-          </NavLink>
-        </div>
-        <nav className="flex items-center">
-          <ul className="flex justify-between w-full">
-            {navItems.map((item: NavigationLinks) => (
-              <li key={item.id}>
-                <NavLink
-                  className="text-xl hover:text-emerald-600 transition duration-300"
-                  to={item.link}
-                >
-                  {item.name}
-                </NavLink>
-              </li>
-            ))}
-          </ul>
-        </nav>
-      </div>
-      {/* <div className="max-w-sm container mx-auto items-center"></div>
+    <>
+      <div className="w-full ">
+        <div className="container max-w-4xl border-b-2 border-gray-400  px-6 py-2  mx-auto flex justify-between items-center font-serif">
+          <div className="flex">
+            <div className="m-4 ">
+              <NavLink to="/">
+                <img
+                  src={logo}
+                  alt="logo"
+                  className="w-auto h-auto max-w-mdSize flex items-center"
+                />
+              </NavLink>
+            </div>
+          </div>
+          <nav className="flex items-center">
+            <ul className="flex justify-between w-full">
+              {navItems.map((item: NavigationLinks) => (
+                <li className="px-3" key={item.id}>
+                  <NavLink
+                    className="text-xl hover:text-emerald-600 transition duration-300"
+                    to={item.link}
+                  >
+                    {item.name}
+                  </NavLink>
+                </li>
+              ))}
+            </ul>
+          </nav>
+          {/* <div className="max-w-sm container mx-auto items-center"></div>
       <div className="flex justify-between items-center gap-3"></div> */}
-    </div>
+        </div>
+      </div>
+    </>
   );
 };
 
