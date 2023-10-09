@@ -15,9 +15,14 @@ export default {
         mdSmall: "35px",
         mdSize: "140px",
       },
-      backgroundColor: {
-        dark: "#6F6B6B",
-        light: "#ffffff",
+
+      colors: {
+        text: "#3E3A3A",
+        base: "#E0D7D7",
+        base_: "#ADC2D1",
+      },
+      backgroundImage: {
+        "theme-pattern": "url('/src/assets/theme.png')",
       },
     },
   },
