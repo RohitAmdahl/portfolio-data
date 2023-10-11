@@ -17,7 +17,11 @@ const HomePage: React.FC = () => {
             <h1 className=" font-bold text-4xl text-black font-serif ">
               I am Rohit Kumar Amdahl!
             </h1>
-            <span className=" text-lg">Frontend Developer.</span>
+            <div>
+              <p> Junior Frontend Developer, Noroff graduate okt-2023.</p>
+              <p> Check out my projects, find more on my GitHub.</p>
+            </div>
+            <span className="text-lg">Skills , html ,css javascript.</span>
           </div>
         </div>
       </div>
