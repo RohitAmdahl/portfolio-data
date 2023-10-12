@@ -25,7 +25,7 @@ const Navbar: React.FC = () => {
               {navItems.map((item: NavigationLinks) => (
                 <li className="px-3" key={item.id}>
                   <NavLink
-                    className="text-lg hover:text-emerald-600 transition duration-300"
+                    className="text-lg hover:text-blue-700 transition duration-100"
                     to={item.link}
                   >
                     {item.name}

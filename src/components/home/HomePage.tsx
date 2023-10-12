@@ -3,7 +3,6 @@ import { BsLinkedin, BsGithub, BsEnvelopeAt } from "react-icons/bs";
 import { AiOutlineFilePdf } from "react-icons/ai";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
-import { BsLink } from "react-icons/bs";
 
 const HomePage: React.FC = () => {
   return (
@@ -15,21 +14,21 @@ const HomePage: React.FC = () => {
           </div>
 
           <div>
-            <h1 className=" font-bold text-xl text-black font-serif ">
+            <h1 className=" capitalize font-bold text-xl text-black font-serif ">
               I am Rohit Kumar Amdahl!
             </h1>
             <h2>
               <span className="font-bold text-xl">
-                Junior Frontend Developer,
-              </span>{" "}
-              Noroff graduate okt-2023.
+                Junior Frontend Developer
+              </span>
+              , Noroff graduate okt-2023.
             </h2>
             <div className="px-4 ">
               <ul>
                 <li>
                   Check out my projects, find more on my
                   <Link
-                    className="underline px-2 text-sky-900 font-semibold"
+                    className="underline px-2 text-blue-800 font-semibold"
                     to="https://github.com/RohitAmdahl"
                   >
                     GitHub
@@ -37,14 +36,17 @@ const HomePage: React.FC = () => {
                 </li>
                 {/* <li>Skills.</li> */}
                 <ul className="list-disc">
-                  <li> Html5, Css3, javascript</li>
-                  <li> Wordpress, style-components,Sass, Bootstrap</li>
-                  <li> React.js,Typescript, TailwindCss,</li>
-                  <li>Supabase, firebase, MongoDB </li>
+                  <li className=" capitalize"> Html5, Css3.</li>
+                  <li className=" capitalize">
+                    Wordpress, style-components, Sass, framer-motion, Bootstrap,
+                    TailwindCss.
+                  </li>
+                  <li className=" capitalize">
+                    React.js, Typescript, javascript.
+                  </li>
+                  <li className=" capitalize">Supabase, firebase, mongoDB </li>
                 </ul>
               </ul>
-              {/* <p> Junior Frontend Developer, Noroff graduate okt-2023.</p>
-              <p> Check out my projects, find more on my GitHub.</p> */}
             </div>
             <span className="text-lg"></span>
           </div>
@@ -53,10 +55,14 @@ const HomePage: React.FC = () => {
       <div className="container mx-auto max-w-2xl p-4 m-3 border-b-2 border-gray-400">
         <ul className="flex justify-between cursor-pointer m-4">
           <motion.li
-            className="px-2 py-2 bg-gray-100 rounded-full hover:text-blue-700 font-bold shadow-xl"
-            initial={{ opacity: 0, scale: 0.8 }}
-            animate={{ opacity: 1, scale: 1.2 }}
-            transition={{ duration: 0.5, stiffness: 500 }}
+            className="px-2 py-2 bg-gray-100 rounded-lg transition duration-150 ease-in-out hover:rounded-full hover:bg-blue-700 hover:text-red-200 font-bold shadow-xl"
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{
+              delay: 0.3,
+              type: "string",
+              duration: 0.9,
+            }}
             title="Linkedin"
           >
             <Link to="https://www.linkedin.com/feed/" target="_blank">
@@ -64,10 +70,14 @@ const HomePage: React.FC = () => {
             </Link>
           </motion.li>
           <motion.li
-            className="px-2 py-2 bg-gray-100 rounded-full hover:text-blue-700 font-bold shadow-xl"
-            initial={{ opacity: 0, scale: 0.8 }}
-            animate={{ opacity: 1, scale: 1.2 }}
-            transition={{ duration: 0.5, stiffness: 500 }}
+            className="px-2 py-2 bg-gray-100 rounded-lg transition duration-150 ease-in-out hover:rounded-full hover:bg-blue-700 hover:text-red-200 font-bold shadow-xl"
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{
+              delay: 0.3,
+              type: "string",
+              duration: 0.9,
+            }}
             title="Github"
           >
             <Link to="https://github.com/RohitAmdahl" target="_blank">
@@ -75,10 +85,14 @@ const HomePage: React.FC = () => {
             </Link>
           </motion.li>
           <motion.li
-            className="px-2 py-2 bg-gray-100 rounded-full hover:text-blue-700 font-bold shadow-xl"
-            initial={{ opacity: 0, scale: 0.8 }}
-            animate={{ opacity: 1, scale: 1.2 }}
-            transition={{ duration: 0.5, stiffness: 500 }}
+            className="px-2 py-2 bg-gray-100 rounded-lg transition duration-150 ease-in-out hover:rounded-full hover:bg-blue-700 hover:text-red-200 font-bold shadow-xl"
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{
+              delay: 0.3,
+              type: "string",
+              duration: 0.9,
+            }}
             title="Email"
           >
             <Link to="mailto:rohit_dsigner@outlook.com" target="_blank">
@@ -86,10 +100,14 @@ const HomePage: React.FC = () => {
             </Link>
           </motion.li>
           <motion.li
-            className="px-2 py-2 bg-gray-100 shadow-xl rounded-full hover:text-blue-700 font-bold "
-            initial={{ opacity: 0, scale: 0.8 }}
-            animate={{ opacity: 1, scale: 1.2 }}
-            transition={{ duration: 0.5, stiffness: 500 }}
+            className="px-2 py-2 bg-gray-100 rounded-lg transition duration-150 ease-in-out hover:rounded-full hover:bg-blue-700 hover:text-red-200 font-bold shadow-xl"
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{
+              delay: 0.3,
+              type: "string",
+              duration: 0.9,
+            }}
             title="CV Pdf file"
           >
             <span className="">
