@@ -3,25 +3,50 @@ import { BsLinkedin, BsGithub, BsEnvelopeAt } from "react-icons/bs";
 import { AiOutlineFilePdf } from "react-icons/ai";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
+import { BsLink } from "react-icons/bs";
 
 const HomePage: React.FC = () => {
   return (
     <>
-      <div className="container mx-auto max-w-4xl flex flex-wrap items-center m-10">
-        <div className=" flex justify-center items-center">
-          <div>
+      <div className="container mx-auto max-w-5xl flex flex-wrap items-center m-10">
+        <div className=" flex justify-center flex-wrap items-center lg:grid lg:grid-cols-2 lg:max-w-5xl gap-2">
+          <div className="mx-auto">
             <img src={MyAvatar} alt="my image" className="p-5 rounded-full " />
           </div>
 
-          <div className="px-4 w-1/2">
-            <h1 className=" font-bold text-4xl text-black font-serif ">
+          <div>
+            <h1 className=" font-bold text-xl text-black font-serif ">
               I am Rohit Kumar Amdahl!
             </h1>
-            <div>
-              <p> Junior Frontend Developer, Noroff graduate okt-2023.</p>
-              <p> Check out my projects, find more on my GitHub.</p>
+            <h2>
+              <span className="font-bold text-xl">
+                Junior Frontend Developer,
+              </span>{" "}
+              Noroff graduate okt-2023.
+            </h2>
+            <div className="px-4 ">
+              <ul>
+                <li>
+                  Check out my projects, find more on my
+                  <Link
+                    className="underline px-2 text-sky-900 font-semibold"
+                    to="https://github.com/RohitAmdahl"
+                  >
+                    GitHub
+                  </Link>
+                </li>
+                {/* <li>Skills.</li> */}
+                <ul className="list-disc">
+                  <li> Html5, Css3, javascript</li>
+                  <li> Wordpress, style-components,Sass, Bootstrap</li>
+                  <li> React.js,Typescript, TailwindCss,</li>
+                  <li>Supabase, firebase, MongoDB </li>
+                </ul>
+              </ul>
+              {/* <p> Junior Frontend Developer, Noroff graduate okt-2023.</p>
+              <p> Check out my projects, find more on my GitHub.</p> */}
             </div>
-            <span className="text-lg">Skills , html ,css javascript.</span>
+            <span className="text-lg"></span>
           </div>
         </div>
       </div>
