@@ -12,7 +12,6 @@ const HomePage: React.FC = () => {
           <div className="mx-auto">
             <img src={MyAvatar} alt="my image" className="p-5 rounded-full " />
           </div>
-
           <div>
             <h1 className=" capitalize font-bold text-xl text-black font-serif ">
               I am Rohit Kumar Amdahl!
@@ -31,20 +30,17 @@ const HomePage: React.FC = () => {
                     className="underline px-2 text-blue-800 font-semibold"
                     to="https://github.com/RohitAmdahl"
                   >
-                    GitHub
+                    GitHub.
                   </Link>
                 </li>
-                {/* <li>Skills.</li> */}
                 <ul className="list-disc">
-                  <li className=" capitalize"> Html5, Css3.</li>
+                  <li className=" capitalize"> Html5, Css3, javascript.</li>
                   <li className=" capitalize">
                     Wordpress, style-components, Sass, framer-motion, Bootstrap,
                     TailwindCss.
                   </li>
-                  <li className=" capitalize">
-                    React.js, Typescript, javascript.
-                  </li>
-                  <li className=" capitalize">Supabase, firebase, mongoDB </li>
+                  <li className=" capitalize">React.js, Typescript.</li>
+                  <li className=" capitalize">Supabase, firebase, mongoDB. </li>
                 </ul>
               </ul>
             </div>
