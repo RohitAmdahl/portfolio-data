@@ -11,13 +11,8 @@ export const navItems: NavigationLinks[] = [
     id: 1,
   },
   {
-    name: "Portfolio",
+    name: "About",
     link: "/portfolio",
     id: 2,
-  },
-  {
-    name: "LogIn",
-    link: "/login",
-    id: 3,
   },
 ];
