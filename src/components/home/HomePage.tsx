@@ -40,7 +40,7 @@ const HomePage: React.FC = () => {
                     TailwindCss.
                   </li>
                   <li className=" capitalize">React.js, Typescript.</li>
-                  <li className=" capitalize">Supabase, firebase, mongoDB. </li>
+                  <li className=" capitalize">Supabase, firebase. </li>
                 </ul>
               </ul>
             </div>
