@@ -31,7 +31,7 @@ const Project: React.FC = () => {
                 <h1 className="font-bold capitalize text-lg ">{title}</h1>
                 <p>{description}</p>
               </div>
-              <div className="flex justify-between flex-wrap  lg:grid lg:grid-cols-2 lg:gap-6  text-center ">
+              <div className="flex justify-between flex-wrap m-4 lg:grid lg:grid-cols-2 lg:gap-6 text-center ">
                 <div className=" cursor-pointer font-semibold px-2 py-2 m-4 bg-blue-800 text-white hover:bg-gray-800 transition-all duration-150 max-w-md rounded-lg">
                   <Link target="_blank" to={liveDemo}>
                     Live Demo
