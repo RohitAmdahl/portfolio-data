@@ -3,6 +3,7 @@ import { BsLinkedin, BsGithub, BsEnvelopeAt } from "react-icons/bs";
 import { AiOutlineFilePdf } from "react-icons/ai";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
+import Project from "../projects/Project";
 
 const HomePage: React.FC = () => {
   return (
@@ -112,6 +113,7 @@ const HomePage: React.FC = () => {
           </motion.li>
         </ul>
       </div>
+      <Project />
     </>
   );
 };
