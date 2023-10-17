@@ -21,7 +21,7 @@ const HomePage: React.FC = () => {
               <span className="font-bold text-xl">
                 Junior Frontend Developer
               </span>
-              , Noroff graduate okt-2023.
+              , Noroff graduate oct-2023.
             </h2>
             <div className="px-4 ">
               <ul>

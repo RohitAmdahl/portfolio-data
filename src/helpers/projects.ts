@@ -11,7 +11,7 @@ export type project = {
   title: string;
   description: string;
   imgUrl: string;
-  tech: string[];
+  tech?: string[];
   liveDemo: string;
   githubLink: string;
 };
@@ -41,7 +41,7 @@ export const data: project[] = [
     id: 3,
     title: "portfolio",
     description:
-      "Welcome to my first-semester web development project, where i've brought the Community Science Museum to life online. Using our HTML and CSS skills, i've crafted a responsive website that showcases our dedication to design and functionality In this assignment, we transformed static content into an engaging digital experience, ensuring seamless interaction across devices. This project not only highlights our technical prowess but also our commitment to user experience and accessibility.",
+      "I've developed my portfolio using React, TypeScript and Tailwindcss, focusing on simplicity and intuitive design principles. The core idea behind the design is to ensure that my portfolio is straightforward and easy to navigate.",
     imgUrl: profile,
     tech: ["", ""],
     liveDemo: "https://science-meseum.netlify.app",
