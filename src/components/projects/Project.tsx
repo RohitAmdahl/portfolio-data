@@ -1,6 +1,6 @@
 import { project, data } from "../../helpers/projects";
 import { Link } from "react-router-dom";
-import { motion, useScroll, useTransform } from "framer-motion";
+import { motion } from "framer-motion";
 const Project: React.FC = () => {
   return (
     <>
