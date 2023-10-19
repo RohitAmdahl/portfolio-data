@@ -18,8 +18,10 @@ export default {
 
       colors: {
         text: "#3E3A3A",
-        base: "#E0D7D7",
+        base: "#212121",
         base_: "#ADC2D1",
+        text_: "#E0E0E0",
+        link: "#00FF88",
       },
       backgroundImage: {
         "theme-pattern": "url('/src/assets/theme.png')",

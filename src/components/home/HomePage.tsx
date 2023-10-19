@@ -8,13 +8,13 @@ import Project from "../projects/Project";
 const HomePage: React.FC = () => {
   return (
     <>
-      <div className="container mx-auto max-w-5xl flex flex-wrap items-center m-10">
+      <div className="container mx-auto max-w-5xl flex flex-wrap items-center m-10 text-text_">
         <div className=" flex justify-center flex-wrap items-center lg:grid lg:grid-cols-2 lg:max-w-5xl gap-2">
           <div className="mx-auto">
             <img src={MyAvatar} alt="my image" className="p-5 rounded-full " />
           </div>
           <div>
-            <h1 className=" capitalize font-bold text-xl text-black font-serif ">
+            <h1 className=" capitalize font-bold text-xl text-text_ font-serif ">
               I am Rohit Kumar Amdahl!
             </h1>
             <h2>
@@ -28,7 +28,7 @@ const HomePage: React.FC = () => {
                 <li>
                   Check out my projects, find more on my
                   <Link
-                    className="underline px-2 text-blue-800 font-semibold"
+                    className="underline px-2  text-link  font-semibold"
                     to="https://github.com/RohitAmdahl"
                   >
                     GitHub.

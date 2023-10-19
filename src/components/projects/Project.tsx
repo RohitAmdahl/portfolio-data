@@ -5,7 +5,7 @@ const Project: React.FC = () => {
   return (
     <>
       <div className="container mx-auto max-w-5xl text-center py-4 m-4">
-        <h3 className="text-2xl font-bold">Projects</h3>
+        <h3 className="text-2xl font-bold text-text_">Projects</h3>
       </div>
 
       {data.map((item: project) => {
@@ -16,7 +16,7 @@ const Project: React.FC = () => {
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
             viewport={{ once: true }}
-            className="m-4 p-4 border-b-4  container mx-auto flex justify-center flex-wrap items-center gap-4 md:max-w-3xl lg:max-w-5xl "
+            className="m-4 text-text_ p-4 border-b-4  container mx-auto flex justify-center flex-wrap items-center gap-4 md:max-w-3xl lg:max-w-5xl "
             key={item.id}
           >
             <div className="max-w-md p-4">
@@ -26,7 +26,7 @@ const Project: React.FC = () => {
                 title={title}
               />
             </div>
-            <div className=" lg:m-8 ">
+            <div className=" lg:m-8 text-text_ ">
               <div className="max-w-md lg:p-2 ">
                 <h1 className="font-bold capitalize text-lg ">{title}</h1>
                 <p>{description}</p>
