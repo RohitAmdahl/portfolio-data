@@ -16,7 +16,7 @@ const Project: React.FC = () => {
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
             viewport={{ once: true }}
-            className="m-4 p-4 border-b-4  max-w-5xl container mx-auto flex justify-cente flex-wrap items-center gap-4 "
+            className="m-4 p-4 border-b-4  container mx-auto flex justify-center flex-wrap items-center gap-4 md:max-w-3xl lg:max-w-5xl "
             key={item.id}
           >
             <div className="max-w-md p-4">
@@ -26,18 +26,18 @@ const Project: React.FC = () => {
                 title={title}
               />
             </div>
-            <div className=" m-8 ">
-              <div className="max-w-md">
+            <div className=" lg:m-8 ">
+              <div className="max-w-md lg:p-2 ">
                 <h1 className="font-bold capitalize text-lg ">{title}</h1>
                 <p>{description}</p>
               </div>
-              <div className="flex justify-between flex-wrap m-4 lg:grid lg:grid-cols-2 lg:gap-6 text-center ">
-                <div className=" cursor-pointer font-semibold px-2 py-2 m-4 bg-blue-800 text-white hover:bg-gray-800 transition-all duration-150 max-w-md rounded-lg">
+              <div className="flex justify-between items-center flex-wrap m-4 lg:grid lg:grid-cols-2 lg:gap-6 text-center ">
+                <div className=" w-full cursor-pointer font-semibold px-2 py-2 m-4 bg-blue-800 text-white hover:bg-gray-800 transition-all duration-150 max-w-md rounded-lg">
                   <Link target="_blank" to={liveDemo}>
                     Live Demo
                   </Link>
                 </div>
-                <div className=" cursor-pointer font-semibold px-2 py-2 m-4 bg-blue-800 text-white hover:bg-gray-800 transition-all duration-150 max-w-md rounded-lg">
+                <div className=" w-full cursor-pointer font-semibold px-2 py-2 m-4 bg-blue-800 text-white hover:bg-gray-800 transition-all duration-150 max-w-md rounded-lg">
                   <Link target="_blank" to={githubLink}>
                     Github
                   </Link>

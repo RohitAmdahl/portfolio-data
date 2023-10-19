@@ -8,9 +8,9 @@ const Navbar: React.FC = () => {
   return (
     <>
       <div className="w-full ">
-        <div className="container max-w-4xl border-b-2 border-gray-400  px-6 py-2  mx-auto flex justify-between items-center font-serif">
+        <div className="container max-w-4xl border-b-2 border-gray-400 px-6 py-2  mx-auto flex justify-between items-center font-serif">
           <div className="flex">
-            <div className="m-4 ">
+            <div className="lg:m-4 m-1 ">
               <NavLink to="/">
                 <img
                   src={logo}
