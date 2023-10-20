@@ -24,7 +24,7 @@ const HomePage: React.FC = () => {
               , Noroff graduate oct-2023.
             </h2>
             <div className="px-4 ">
-              <ul>
+              <ul className="list-disc">
                 <li>
                   Check out my projects, find more on my
                   <Link
@@ -36,11 +36,13 @@ const HomePage: React.FC = () => {
                 </li>
                 <ul className="list-disc">
                   <li className=" capitalize"> Html5, Css3, javascript.</li>
+                  <li className=" capitalize">React.js, Typescript.</li>
+                  <li className=" capitalize">Git, Github.</li>
                   <li className=" capitalize">
                     Wordpress, style-components, Sass, framer-motion, Bootstrap,
                     TailwindCss.
                   </li>
-                  <li className=" capitalize">React.js, Typescript.</li>
+                  <li className=" capitalize">Figma, Adobe XD, Trello. </li>
                   <li className=" capitalize">Supabase, firebase. </li>
                 </ul>
               </ul>
