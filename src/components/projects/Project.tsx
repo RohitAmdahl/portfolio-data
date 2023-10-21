@@ -14,8 +14,12 @@ const Project: React.FC = () => {
         return (
           <motion.div
             initial={{ opacity: 0 }}
-            whileInView={{ opacity: 1 }}
-            viewport={{ once: true }}
+            animate={{ opacity: 1 }}
+            transition={{
+              delay: 0.9,
+              type: "string",
+              duration: 0.9,
+            }}
             className="m-4 text-text_ p-4 border-b-4  container mx-auto flex justify-center flex-wrap items-center gap-4 md:max-w-3xl lg:max-w-5xl "
             key={item.id}
           >
