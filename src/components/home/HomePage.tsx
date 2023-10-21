@@ -43,7 +43,13 @@ const HomePage: React.FC = () => {
                     Bootstrap, Tailwind CSS.
                   </li>
                   <li className=" capitalize">
-                    Figma, Adobe XD, Trello, WCAG.
+                    Figma, Adobe XD, Trello,
+                    <Link
+                      className="underline px-2  text-link  font-semibold"
+                      to="https://webaim.org/resources/contrastchecker/"
+                    >
+                      WCAG.
+                    </Link>
                   </li>
                   <li className=" capitalize">Supabase, firebase. </li>
                 </ul>
