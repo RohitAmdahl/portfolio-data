@@ -35,14 +35,16 @@ const HomePage: React.FC = () => {
                   </Link>
                 </li>
                 <ul className="list-disc">
-                  <li className=" capitalize"> Html5, Css3, javascript.</li>
-                  <li className=" capitalize">React.js, Typescript.</li>
-                  <li className=" capitalize">Git, Github.</li>
+                  <li className=" capitalize"> Html5, CSS3, JavaScript.</li>
+                  <li className=" capitalize">React, TypeScript.</li>
+                  <li className=" capitalize">Git, GitHub.</li>
                   <li className=" capitalize">
-                    Wordpress, style-components, Sass, framer-motion, Bootstrap,
-                    TailwindCss.
+                    WordPress, styled-components, Sass, framer-motion,
+                    Bootstrap, Tailwind CSS.
                   </li>
-                  <li className=" capitalize">Figma, Adobe XD, Trello. </li>
+                  <li className=" capitalize">
+                    Figma, Adobe XD, Trello, WCAG.
+                  </li>
                   <li className=" capitalize">Supabase, firebase. </li>
                 </ul>
               </ul>
