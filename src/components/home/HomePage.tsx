@@ -4,6 +4,7 @@ import { AiOutlineFilePdf } from "react-icons/ai";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import Project from "../projects/Project";
+import resume from "../../assets/Rohit_Kumar.pdf";
 
 const HomePage: React.FC = () => {
   return (
@@ -117,9 +118,9 @@ const HomePage: React.FC = () => {
             }}
             title="CV Pdf file"
           >
-            <span className="">
+            <Link to={resume} target="_blank">
               <AiOutlineFilePdf size={25} />
-            </span>
+            </Link>
           </motion.li>
         </ul>
       </div>
