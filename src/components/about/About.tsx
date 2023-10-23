@@ -3,7 +3,7 @@ import React from "react";
 const About: React.FC = () => {
   return (
     <div className="text-lg container mx-auto my-9 text-text_">
-      <h1 className="text-xl pb-4 m-2 font-serif font-bold ">
+      <h1 className="text-xl pb-4 m-2 font-serif font-bold">
         About Me <span>👋</span>
       </h1>
       <p className="pb-4 m-2">

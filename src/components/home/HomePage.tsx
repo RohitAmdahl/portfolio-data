@@ -9,10 +9,10 @@ import resume from "../../assets/Rohit_Kumar.pdf";
 const HomePage: React.FC = () => {
   return (
     <>
-      <div className="container mx-auto max-w-5xl flex flex-wrap items-center m-10 text-text_">
+      <div className="container mx-auto max-w-5xl flex flex-wrap items-center m-10 text-text_  rounded-2xl">
         <div className=" flex justify-center flex-wrap items-center lg:grid lg:grid-cols-2 lg:max-w-5xl gap-2">
           <div className="mx-auto">
-            <img src={MyAvatar} alt="my image" className="p-5 rounded-full " />
+            <img src={MyAvatar} alt="my image" className="p-5 rounded-full  " />
           </div>
           <div>
             <h1 className=" capitalize font-bold text-xl text-text_ font-serif ">
