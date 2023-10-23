@@ -1,7 +1,9 @@
+import About from "../components/about/About";
+
 const Portfolio = () => {
   return (
-    <div className="text-5xl container mx-auto text-center my-9">
-      About coming soon
+    <div className="max-w-4xl container mx-auto">
+      <About />
     </div>
   );
 };
