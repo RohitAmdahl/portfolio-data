@@ -15,7 +15,6 @@ export default {
         mdSmall: "35px",
         mdSize: "100px",
       },
-
       colors: {
         text: "#3E3A3A",
         base: "#212121",
@@ -26,8 +25,13 @@ export default {
       backgroundImage: {
         "theme-pattern": "url('/src/assets/theme.png')",
       },
+      fontFamily: {
+        poppins: ["Roboto Condensed", "sans-serif"],
+      },
     },
   },
   plugins: [],
   darkMode: "class",
 };
+
+// font-family: 'Roboto Condensed', sans-serif;

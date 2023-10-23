@@ -1,6 +1,7 @@
 import { project, data } from "../../helpers/projects";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
+
 const Project: React.FC = () => {
   return (
     <>
@@ -9,7 +10,6 @@ const Project: React.FC = () => {
       </div>
 
       {data.map((item: project) => {
-        console.log(item);
         const { title, description, githubLink, imgUrl, liveDemo } = item;
         return (
           <motion.div
