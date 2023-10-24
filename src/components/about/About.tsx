@@ -8,9 +8,10 @@ const About: React.FC<Paragraph[]> = (): JSX.Element => {
         About Me <span>👋</span>
       </h1>
       {content.map((p: Paragraph): JSX.Element => {
+        const { id, text } = p;
         return (
-          <p key={p.id} className="pb-4 m-2">
-            {p.text}
+          <p key={id} className="pb-4 m-2">
+            {text}
           </p>
         );
       })}
