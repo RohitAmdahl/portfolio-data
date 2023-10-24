@@ -1,10 +1,10 @@
 import React from "react";
-import About from "../components/about/About"; // Make sure the import path is correct
+import AboutPage from "../components/about/About";
 
-const Portfolio: React.FC = (): JSX.Element => {
+const Portfolio: React.FC = () => {
   return (
     <div className="max-w-4xl container mx-auto">
-      <About /> {/* Use the About component */}
+      <AboutPage />
     </div>
   );
 };
