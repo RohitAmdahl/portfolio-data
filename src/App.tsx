@@ -4,7 +4,7 @@ import { Route, Routes } from "react-router-dom";
 import Layout from "./layout/Layout";
 const HomePage = lazy(() => import("./pages/Home"));
 
-const About = lazy(() => import("./pages/Portfolio"));
+const About = lazy(() => import("./pages/Profile"));
 
 function App() {
   return (
