@@ -1,11 +1,11 @@
 import React from "react";
 
-interface Paragraph {
+export interface Paragraph {
   id: number;
   text: string;
 }
 
-const content: Paragraph[] = [
+export const content: Paragraph[] = [
   {
     id: 0,
     text: "I am deeply passionate about IT and coding, with my expertise honed at Noroff, where I specialized in Frontend development, and through my Bachelor's degree in Design. While studying at Noroff, I also took on freelance projects in 3D BIM. My main drive for applying to this position lies in my desire to enhance creativity and user-friendliness.",
@@ -38,7 +38,7 @@ const About: React.FC<Paragraph[]> = () => {
       <h1 className="text-xl pb-4 m-2 font-serif font-bold">
         About Me <span>👋</span>
       </h1>
-      {content.map((p) => {
+      {content.map((p: Paragraph) => {
         return (
           <p key={p.id} className="pb-4 m-2">
             {p.text}
