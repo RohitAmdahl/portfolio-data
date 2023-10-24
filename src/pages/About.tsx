@@ -1,7 +1,7 @@
 import React from "react";
-import AboutPage from "../components/about/About";
+import AboutPage from "../components/about/AboutPage";
 
-const Portfolio: React.FC = () => {
+const About: React.FC = (): JSX.Element => {
   return (
     <div className="max-w-4xl container mx-auto">
       <AboutPage />
@@ -9,4 +9,4 @@ const Portfolio: React.FC = () => {
   );
 };
 
-export default Portfolio;
+export default About;

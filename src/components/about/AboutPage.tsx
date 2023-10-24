@@ -1,3 +1,5 @@
+import React from "react";
+
 export type Paragraph = {
   id: number;
   text: string;
@@ -29,3 +31,23 @@ export const content: Paragraph[] = [
     text: "I come highly recommended, with excellent references from my previous workplaces, and I am more than willing to provide names and phone numbers upon request.",
   },
 ];
+
+const AboutPage: React.FC = (): JSX.Element => {
+  return (
+    <div className="text-lg container mx-auto my-9 text-text_">
+      <h1 className="text-xl pb-4 m-2 font-serif font-bold">
+        About Me <span>👋</span>
+      </h1>
+      {content.map((p: Paragraph): JSX.Element => {
+        const { id, text } = p;
+        return (
+          <p key={id} className="pb-4 m-2">
+            {text}
+          </p>
+        );
+      })}
+    </div>
+  );
+};
+
+export default AboutPage;
