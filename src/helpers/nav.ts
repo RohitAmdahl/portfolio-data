@@ -12,7 +12,7 @@ export const navItems: NavigationLinks[] = [
   },
   {
     name: "About",
-    link: "/portfolio",
+    link: "/about",
     id: 2,
   },
 ];
