@@ -15,11 +15,11 @@ const HomePage: React.FC = () => {
             <img src={MyAvatar} alt="my image" className="p-5 rounded-full  " />
           </div>
           <div>
-            <h1 className=" capitalize font-bold text-xl text-text_ font-serif ">
+            <h1 className=" tracking-wider font-pins capitalize font-bold text-xl text-text_  ">
               I am Rohit Kumar Amdahl!
             </h1>
             <h2>
-              <span className="font-bold text-xl">
+              <span className="font-bold text-2xl tracking-wide  font-pins">
                 Junior Frontend Developer
               </span>
               , Noroff graduate oct-2023.

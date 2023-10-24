@@ -26,7 +26,7 @@ export default {
         "theme-pattern": "url('/src/assets/theme.png')",
       },
       fontFamily: {
-        poppins: ["Roboto Condensed", "sans-serif"],
+        pins: ["Roboto Condensed", "sans-serif"],
       },
     },
   },
