@@ -15,18 +15,15 @@ const HomePage: React.FC = () => {
             <img src={MyAvatar} alt="my image" className="p-5 rounded-full  " />
           </div>
           <div>
-            <h1 className=" tracking-wider font-pins capitalize font-bold text-xl text-text_  ">
+            <h1 className=" tracking-wider font-serif capitalize font-bold text-xl text-text_  ">
               I am Rohit Kumar Amdahl!
             </h1>
-            <h2>
-              <span className="font-bold text-2xl tracking-wide  font-pins">
-                Junior Frontend Developer
-              </span>
-              , Noroff graduate oct-2023.
+            <h2 className="font-bold text-2xl tracking-wide pb-2  font-serif ">
+              Junior Frontend Developer
             </h2>
             <div className="px-4 ">
-              <ul className="list-disc">
-                <li>
+              <ul className="list-disc ">
+                <li className="py-1">
                   Check out my projects, find more on my
                   <Link
                     className="underline px-2  text-link  font-semibold"
@@ -35,28 +32,28 @@ const HomePage: React.FC = () => {
                     GitHub.
                   </Link>
                 </li>
-                <ul className="list-disc">
-                  <li className=" capitalize"> Html5, CSS3, JavaScript.</li>
-                  <li className=" capitalize">React, TypeScript.</li>
-                  <li className=" capitalize">Git, GitHub.</li>
-                  <li className=" capitalize">
-                    WordPress, styled-components, Sass, framer-motion,
-                    Bootstrap, Tailwind CSS.
-                  </li>
-                  <li className=" capitalize">
-                    Figma, Adobe XD, Trello,
-                    <Link
-                      className="underline px-2  text-link  font-semibold"
-                      to="https://webaim.org/resources/contrastchecker/"
-                    >
-                      WCAG.
-                    </Link>
-                  </li>
-                  <li className=" capitalize">Supabase, firebase. </li>
-                </ul>
+                <li className=" capitalize"> Html5, CSS3, JavaScript.</li>
+                <li className=" capitalize">React, TypeScript.</li>
+                <li className=" capitalize">
+                  Git, GitHub, git Version Control.
+                </li>
+                <li className=" capitalize">
+                  WordPress, styled-components, Sass, framer-motion, Bootstrap,
+                  Tailwind CSS.
+                </li>
+                <li className=" capitalize">
+                  Figma, Adobe XD, Trello,
+                  <Link
+                    className="underline px-2  text-link  font-semibold"
+                    to="https://webaim.org/resources/contrastchecker/"
+                  >
+                    WCAG.
+                  </Link>
+                </li>
+                <li className=" capitalize">Basic End To End testing.</li>
+                <li className=" capitalize">Supabase, firebase. </li>
               </ul>
             </div>
-            <span className="text-lg"></span>
           </div>
         </div>
       </div>
