@@ -6,7 +6,9 @@ const Project: React.FC = () => {
   return (
     <>
       <div className="container mx-auto max-w-5xl text-center py-4 m-4">
-        <h3 className="text-2xl font-serif font-bold text-text_">Projects</h3>
+        <h3 className="text-2xl capitalize font-serif font-bold text-text_">
+          " The projects "
+        </h3>
       </div>
 
       {data.map((item: project) => {

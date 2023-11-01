@@ -21,7 +21,7 @@ export const data: project[] = [
     id: 1,
     title: "holiDaze",
     description:
-      "Holidaze is a modern front-end accommodation booking application, developed as a final exam project at Noroff School of Technology. The project's goal is to create venue booking platform concept of Airbnb, where users can browse various accommodation options to book their stay, or register as venue managers to create and manage their own rental properties. The project uses an API provided by Noroff.",
+      "Holidaze is a modern front-end accommodation booking application, developed as a final exam project at Noroff School of Technology. The project goal is to create venue booking Platform. Concept of Airbnb, where users can browse various accommodation options to book their stay, or register as venue managers to create and manage their own rental properties. The project uses an API provided by Noroff.",
     imgUrl: holiday,
     tech: ["react.js", "tailwindcss", "Formik"],
     liveDemo: "https://resilient-sawine-3b694a.netlify.app",
