@@ -8,7 +8,7 @@ export type Paragraph = {
 export const content: Paragraph[] = [
   {
     id: 0,
-    text: "I am deeply passionate about IT and coding, with my expertise honed at Noroff, where I specialized in Frontend development, and through my Bachelor's degree in Design. While studying at Noroff, I also took on freelance projects in 3D BIM. My main drive for applying to this position lies in my desire to enhance creativity and user-friendliness.",
+    text: "Coding and IT are my passion, cultivated through specialized studies in Frontend development at Noroff and a Bachelor's degree in Design. My expertise extends to freelance projects in 3D BIM, sparking my drive to enhance creativity and user-friendliness in digital experiences. I am dedicated to pushing the boundaries of innovation and usability in IT and web development.",
   },
   {
     id: 1,
@@ -38,6 +38,7 @@ const AboutPage: React.FC = (): JSX.Element => {
       <h1 className="text-xl pb-4 m-2 font-serif font-bold">
         About Me <span>👋</span>
       </h1>
+      <h2 className="text-xl pb-4 m-2 font-serif font-bold">Hi!</h2>
       {content.map((p: Paragraph): JSX.Element => {
         const { id, text } = p;
         return (
@@ -46,6 +47,8 @@ const AboutPage: React.FC = (): JSX.Element => {
           </p>
         );
       })}
+      <p>Warm regards,</p>
+      <p>Rohit kumar Amdahl</p>
     </div>
   );
 };

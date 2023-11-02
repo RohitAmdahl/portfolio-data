@@ -13,7 +13,7 @@ export default {
         size: "10rem",
         small: "30px",
         mdSmall: "35px",
-        mdSize: "100px",
+        mdSize: "120px",
       },
       colors: {
         text: "#3E3A3A",
