@@ -44,9 +44,8 @@ export const data: project[] = [
       "I've developed my portfolio using React, TypeScript and Tailwindcss, focusing on simplicity and intuitive design principles. The core idea behind the design is to ensure that my portfolio is straightforward and easy to navigate.",
     imgUrl: profile,
     tech: ["", ""],
-    liveDemo: "https://science-meseum.netlify.app",
-    githubLink:
-      "https://github.com/RohitAmdahl/Community-Science-Museum-Website",
+    liveDemo: "https://rohit.no/about",
+    githubLink: "https://github.com/RohitAmdahl/portfolio-data",
   },
   {
     id: 4,
