@@ -49,7 +49,7 @@ const HomePage: React.FC = () => {
             Tailwind CSS
           </li>
           <li className="capitalize">
-            Design tools: Figma, Adobe XD, Project management: Trello,
+            Design tools:- Figma, Adobe XD, Project management: Trello,
             <Link
               className="underline px-2 text-link font-semibold"
               to="https://webaim.org/resources/contrastchecker/"
@@ -58,7 +58,9 @@ const HomePage: React.FC = () => {
             </Link>
           </li>
           <li className="capitalize">Basic End To End testing</li>
-          <li className="capitalize">Database: Supabase, Firebase</li>
+          <li className="capitalize">
+            Backend:- Supabase, Firebase, MongoDB, Express.js, Node.js
+          </li>
         </ul>
       </div>
 
