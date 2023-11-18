@@ -10,53 +10,58 @@ const HomePage: React.FC = () => {
   return (
     <>
       <div className="container mx-auto max-w-5xl flex flex-wrap items-center m-10 text-text_  rounded-2xl">
-        <div className=" flex justify-center flex-wrap items-center lg:grid lg:grid-cols-2 lg:max-w-5xl gap-2">
+        <div className=" flex justify-center flex-wrap items-center lg:grid lg:grid-cols-2 lg:max-w-5xl gap-2 mx-auto ">
           <div className="mx-auto">
-            <img src={MyAvatar} alt="my image" className="p-5 rounded-full  " />
+            <img
+              src={MyAvatar}
+              alt="my image"
+              className="p-5 rounded-full max-w-picSize  "
+            />
           </div>
           <div>
-            <h1 className=" tracking-wider font-serif capitalize font-bold text-xl text-text_  ">
-              I am Rohit Kumar Amdahl!
+            <h1 className="font-bold text-2xl tracking-wide pb-2 font-serif   ">
+              Rohit Kumar Amdahl!
             </h1>
-            <h2 className="font-bold text-2xl tracking-wide pb-2  font-serif ">
+            <h2 className="font-bold text-2xl tracking-wide pb-2 font-serif ">
               Junior Frontend Developer
             </h2>
-            <div className="px-4 ">
-              <ul className="list-disc ">
-                <li className="py-1">
-                  Check out my projects, find more on my
-                  <Link
-                    className="underline px-2  text-link  font-semibold"
-                    to="https://github.com/RohitAmdahl"
-                  >
-                    GitHub.
-                  </Link>
-                </li>
-                <li className=" capitalize"> Html5, CSS3, JavaScript.</li>
-                <li className=" capitalize">React, TypeScript.</li>
-                <li className=" capitalize">
-                  Git, GitHub, git Version Control.
-                </li>
-                <li className=" capitalize">
-                  WordPress, styled-components, Sass, framer-motion, Bootstrap,
-                  Tailwind CSS.
-                </li>
-                <li className=" capitalize">
-                  Figma, Adobe XD, Trello,
-                  <Link
-                    className="underline px-2  text-link  font-semibold"
-                    to="https://webaim.org/resources/contrastchecker/"
-                  >
-                    WCAG.
-                  </Link>
-                </li>
-                <li className=" capitalize">Basic End To End testing.</li>
-                <li className=" capitalize">Supabase, firebase. </li>
-              </ul>
-            </div>
           </div>
         </div>
       </div>
+
+      <div className="text-white  flex justify-center items-center ">
+        <ul className="list-disc p-8">
+          <li className="py-1">
+            Explore my projects on
+            <Link
+              className="underline px-2 text-link font-semibold"
+              to="https://github.com/RohitAmdahl"
+            >
+              GitHub
+            </Link>
+          </li>
+          <li className="capitalize">
+            HTML5, CSS3, JavaScript, React, TypeScript
+          </li>
+          <li className="capitalize">Git, GitHub, Version Control</li>
+          <li className="capitalize">
+            WordPress, styled-components, Sass, framer-motion, Bootstrap,
+            Tailwind CSS
+          </li>
+          <li className="capitalize">
+            Design tools: Figma, Adobe XD, Project management: Trello,
+            <Link
+              className="underline px-2 text-link font-semibold"
+              to="https://webaim.org/resources/contrastchecker/"
+            >
+              WCAG
+            </Link>
+          </li>
+          <li className="capitalize">Basic End To End testing</li>
+          <li className="capitalize">Database: Supabase, Firebase</li>
+        </ul>
+      </div>
+
       <div className="container mx-auto max-w-2xl p-4 m-3 border-b-2 border-gray-400">
         <ul className="flex justify-between cursor-pointer m-4">
           <motion.li

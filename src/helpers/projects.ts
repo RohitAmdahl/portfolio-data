@@ -19,7 +19,7 @@ export type project = {
 export const data: project[] = [
   {
     id: 1,
-    title: "holiDaze",
+    title: "holiDaze,  Final Exam project",
     description:
       "Holidaze is a modern front-end accommodation booking application, developed as a final exam project at Noroff School of Technology. The project goal is to create venue booking Platform. Concept of Airbnb, where users can browse various accommodation options to book their stay, or register as venue managers to create and manage their own rental properties. The project uses an API provided by Noroff.",
     imgUrl: holiday,

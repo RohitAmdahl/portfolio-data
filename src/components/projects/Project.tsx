@@ -5,10 +5,19 @@ import { motion } from "framer-motion";
 const Project: React.FC = () => {
   return (
     <>
-      <div className="container mx-auto max-w-5xl text-center py-4 m-4">
-        <h3 className="text-2xl capitalize font-serif font-bold text-text_">
+      <div className="container mx-auto max-w-5xl  py-4 m-4">
+        <h3 className="text-2xl text-center  capitalize font-serif font-bold text-text_">
           " The projects "
         </h3>
+
+        <p className="text-text_ p-4">
+          Presenting my portfolio of personally crafted projects, each stemming
+          from individual tasks and exam assignments. Through project
+          development, I've garnered invaluable learning experiences, honing
+          problem-solving skills. I take pride in designing every project using
+          Figma and organizing tasks efficiently with Trello, showcasing not
+          just the outcome but the journey of continual growth and innovation.
+        </p>
       </div>
 
       {data.map((item: project) => {
