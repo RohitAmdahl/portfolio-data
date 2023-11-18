@@ -5,7 +5,7 @@ const Footer: React.FC = () => {
         Portfolio website created By
         <span className="font-bold"> &copy; Rohit kumar Amdahl</span>
         <span className="font-bold">
-          &copy; React, TypeScript, Tailwind CSS, Vite.
+          React, TypeScript, Tailwind CSS, Vite.
         </span>
       </a>
     </div>
