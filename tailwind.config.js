@@ -14,7 +14,7 @@ export default {
         small: "30px",
         mdSmall: "35px",
         mdSize: "120px",
-        picSize: "300px",
+        picSize: "330px",
       },
       colors: {
         text: "#3E3A3A",

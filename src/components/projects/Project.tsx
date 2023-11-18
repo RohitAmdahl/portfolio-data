@@ -5,8 +5,8 @@ import { motion } from "framer-motion";
 const Project: React.FC = () => {
   return (
     <>
-      <div className="container mx-auto max-w-5xl  py-4 m-4">
-        <h3 className="text-2xl text-center  capitalize font-serif font-bold text-text_">
+      <div className="container mx-auto max-w-4xl  py-4 m-4">
+        <h3 className="text-2xl text-center capitalize font-serif font-bold text-text_">
           " The projects "
         </h3>
 
@@ -31,19 +31,19 @@ const Project: React.FC = () => {
               type: "string",
               duration: 0.9,
             }}
-            className="m-4 text-text_ p-4 border-b-4  container mx-auto flex justify-center flex-wrap items-center gap-4 md:max-w-3xl lg:max-w-5xl "
+            className="m-4 text-text_ p-4 border-b-4  container mx-auto flex flex-col items-center gap-4 md:max-w-5xl lg:max-w-5xl "
             key={item.id}
           >
-            <div className="max-w-md p-4">
+            <div className="max-w-lg p-1">
               <img
                 src={imgUrl}
                 alt="image of laptop mockups a display of projects"
                 title={title}
               />
             </div>
-            <div className=" lg:m-8 text-text_ ">
-              <div className="max-w-md lg:p-2 ">
-                <h1 className="font-bold capitalize text-lg ">{title}</h1>
+            <div className=" lg:m-8 text-text_">
+              <div className="max-w-4xl lg:p-2  ">
+                <h1 className="font-bold capitalize text-lg py-3 ">{title}</h1>
                 <p>{description}</p>
               </div>
               <div className="flex justify-between items-center flex-wrap m-4 lg:grid lg:grid-cols-2 lg:gap-6 text-center ">
