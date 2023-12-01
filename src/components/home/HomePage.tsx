@@ -20,7 +20,7 @@ const HomePage: React.FC = () => {
           </div>
         </div> */}
         <div>
-          <h1 className="font-bold text-2xl tracking-wide pb-2 font-serif   ">
+          <h1 className="font-bold text-4xl tracking-wide pb-2 font-serif   ">
             Rohit Kumar Amdahl!
           </h1>
           <h2 className="font-bold text-2xl tracking-wide pb-2 font-serif ">
@@ -29,15 +29,18 @@ const HomePage: React.FC = () => {
         </div>
       </div>
 
-      <div className="text-white  flex justify-center items-center ">
+      <div className="text-white container mx-auto max-w-2xl  flex justify-center items-center ">
         <ul className="list-disc p-8 text-lg">
           <li className="py-1">
-            Explore my projects on
+            Check out my portfolio to dive into the projects that showcase my
+            skills and creativity. 🎨💻 But wait,
             <Link
-              className="underline px-2 text-link font-semibold"
+              className=" px-2 text-link font-semibold hover:underline"
               to="https://github.com/RohitAmdahl"
+              target="_blank"
             >
-              GitHub
+              there's more! My latest project, which I'm particularly excited
+              about, is available on GitHub. 🚀
             </Link>
           </li>
           <li className="capitalize">
@@ -51,8 +54,9 @@ const HomePage: React.FC = () => {
           <li className="capitalize">
             Design tools:- Figma, Adobe XD, Project management: Trello,
             <Link
-              className="underline px-2 text-link font-semibold"
+              className="hover:underline px-2 text-link font-semibold"
               to="https://webaim.org/resources/contrastchecker/"
+              target="_blank"
             >
               WCAG
             </Link>
