@@ -9,8 +9,8 @@ import resume from "../../assets/Rohit_Kumar.pdf";
 const HomePage: React.FC = () => {
   return (
     <>
-      <div className="container mx-auto max-w-5xl flex flex-wrap items-center m-10 text-text_  rounded-2xl">
-        <div className=" flex justify-center flex-wrap items-center lg:grid lg:grid-cols-2 lg:max-w-5xl gap-2 mx-auto ">
+      <div className="m-10 text-text_  rounded-2xl text-center">
+        {/* <div className=" flex justify-center flex-wrap items-center lg:grid lg:grid-cols-2 lg:max-w-5xl gap-2 mx-auto ">
           <div className="mx-auto">
             <img
               src={MyAvatar}
@@ -18,19 +18,19 @@ const HomePage: React.FC = () => {
               className="p-5 rounded-full max-w-picSize  "
             />
           </div>
-          <div>
-            <h1 className="font-bold text-2xl tracking-wide pb-2 font-serif   ">
-              Rohit Kumar Amdahl!
-            </h1>
-            <h2 className="font-bold text-2xl tracking-wide pb-2 font-serif ">
-              Junior Frontend Developer
-            </h2>
-          </div>
+        </div> */}
+        <div>
+          <h1 className="font-bold text-2xl tracking-wide pb-2 font-serif   ">
+            Rohit Kumar Amdahl!
+          </h1>
+          <h2 className="font-bold text-2xl tracking-wide pb-2 font-serif ">
+            Junior Frontend Developer
+          </h2>
         </div>
       </div>
 
       <div className="text-white  flex justify-center items-center ">
-        <ul className="list-disc p-8">
+        <ul className="list-disc p-8 text-lg">
           <li className="py-1">
             Explore my projects on
             <Link
