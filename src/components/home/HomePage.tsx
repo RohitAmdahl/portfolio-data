@@ -1,4 +1,4 @@
-import MyAvatar from "../../assets/avatar_profile_.png";
+// import MyAvatar from "../../assets/avatar_profile_.png";
 import { BsLinkedin, BsGithub, BsEnvelopeAt } from "react-icons/bs";
 import { AiOutlineFilePdf } from "react-icons/ai";
 import { Link } from "react-router-dom";
