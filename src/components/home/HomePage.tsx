@@ -49,30 +49,32 @@ const HomePage: React.FC = () => {
             Skills
           </p>
         </div>
-        <ul className="list-disc p-8 text-lg">
-          <li className="capitalize">
-            HTML5, CSS3, JavaScript, React, TypeScript
-          </li>
-          <li className="capitalize">Git, GitHub, Version Control</li>
-          <li className="capitalize">
-            WordPress, styled-components, Sass, framer-motion, Bootstrap,
-            Tailwind CSS
-          </li>
-          <li className="capitalize">
-            Design tools:- Figma, Adobe XD, Project management: Trello,
-            <Link
-              className="hover:underline px-2 text-link font-semibold"
-              to="https://webaim.org/resources/contrastchecker/"
-              target="_blank"
-            >
-              WCAG
-            </Link>
-          </li>
-          <li className="capitalize">Basic End To End testing</li>
-          <li className="capitalize">
-            Backend:- Supabase, Firebase, MongoDB, Express.js.
-          </li>
-        </ul>
+        <div>
+          <ul className="list-disc p-8 text-lg">
+            <li className="capitalize">
+              HTML5, CSS3, JavaScript, React, TypeScript
+            </li>
+            <li className="capitalize">Git, GitHub, Version Control</li>
+            <li className="capitalize">
+              WordPress, styled-components, Sass, framer-motion, Bootstrap,
+              Tailwind CSS
+            </li>
+            <li className="capitalize">
+              Design tools:- Figma, Adobe XD, Project management: Trello,
+              <Link
+                className="hover:underline px-2 text-link font-semibold"
+                to="https://webaim.org/resources/contrastchecker/"
+                target="_blank"
+              >
+                WCAG
+              </Link>
+            </li>
+            <li className="capitalize">Basic End To End testing</li>
+            <li className="capitalize">
+              Backend:- Supabase, Firebase, MongoDB, Express.js.
+            </li>
+          </ul>
+        </div>
       </div>
 
       <div className="container mx-auto max-w-2xl p-4 m-3 border-blue-500 border-b-2 ">
