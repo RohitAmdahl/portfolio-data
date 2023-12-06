@@ -1,4 +1,4 @@
-// import MyAvatar from "../../assets/avatar_profile_.png";
+import MyAvatar from "../../assets/avatar_profile_.png";
 import { BsLinkedin, BsGithub, BsEnvelopeAt } from "react-icons/bs";
 import { AiOutlineFilePdf } from "react-icons/ai";
 import { Link } from "react-router-dom";
@@ -9,31 +9,31 @@ import resume from "../../assets/Rohit_Kumar.pdf";
 const HomePage: React.FC = () => {
   return (
     <>
-      <div className="m-10 text-text_  rounded-2xl text-center">
-        {/* <div className=" flex justify-center flex-wrap items-center lg:grid lg:grid-cols-2 lg:max-w-5xl gap-2 mx-auto ">
+      <div className="m-10 text-text_ ">
+        <div className=" flex justify-center flex-wrap items-center lg:grid lg:grid-cols-2 lg:max-w-5xl gap-2 mx-auto">
           <div className="mx-auto">
             <img
               src={MyAvatar}
               alt="my image"
-              className="p-5 rounded-full max-w-picSize  "
+              className="p-5 rounded-full max-w-picSize"
             />
           </div>
-        </div> */}
-        <div>
-          <h1 className="font-bold text-4xl tracking-wide pb-2 font-serif   ">
-            Rohit Kumar Amdahl!
-          </h1>
-          <h2 className="font-bold text-2xl tracking-wide pb-2 font-serif ">
-            Junior Frontend Developer
-          </h2>
+          <div>
+            <h1 className="font-bold text-4xl tracking-wide pb-2 font-serif">
+              Rohit Kumar Amdahl!
+            </h1>
+            <h2 className="font-bold text-2xl tracking-wide pb-2 font-serif">
+              Frontend Developer
+            </h2>
+          </div>
         </div>
       </div>
 
-      <div className="text-white container mx-auto max-w-2xl  flex justify-center items-center ">
-        <ul className="list-disc p-8 text-lg">
-          <li className="py-1">
-            Check out my portfolio to dive into the projects that showcase my
-            skills and creativity. 🎨💻 But wait,
+      <div className="text-white container mx-auto max-w-2xl  flex flex-col justify-center items-center ">
+        <div>
+          <p className="py-1">
+            Check out my School projects to that showcase my skills and
+            creativity. 🎨💻 But wait,
             <Link
               className=" px-2 text-link font-semibold hover:underline"
               to="https://github.com/RohitAmdahl"
@@ -42,7 +42,14 @@ const HomePage: React.FC = () => {
               there's more! My latest project, which I'm particularly excited
               about, is available on GitHub. 🚀
             </Link>
-          </li>
+          </p>
+        </div>
+        <div>
+          <p className="font-bold text-2xl tracking-wide pb-2 font-serif ">
+            Skills
+          </p>
+        </div>
+        <ul className="list-disc p-8 text-lg">
           <li className="capitalize">
             HTML5, CSS3, JavaScript, React, TypeScript
           </li>
