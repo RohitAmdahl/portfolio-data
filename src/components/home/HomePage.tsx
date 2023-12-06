@@ -1,4 +1,4 @@
-// import MyAvatar from "../../assets/avatar_profile_.png";
+import MyAvatar from "../../assets/avatar_profile_.png";
 import { BsLinkedin, BsGithub, BsEnvelopeAt } from "react-icons/bs";
 import { AiOutlineFilePdf } from "react-icons/ai";
 import { Link } from "react-router-dom";
@@ -10,15 +10,15 @@ const HomePage: React.FC = () => {
   return (
     <>
       <div className="m-10 text-text_  rounded-2xl text-center">
-        {/* <div className=" flex justify-center flex-wrap items-center lg:grid lg:grid-cols-2 lg:max-w-5xl gap-2 mx-auto ">
-          <div className="mx-auto">
+        <div className=" flex justify-center flex-wrap items-center lg:grid lg:grid-cols-2 lg:max-w-5xl gap-2 mx-auto ">
+          <div className="container mx-auto">
             <img
               src={MyAvatar}
               alt="my image"
-              className="p-5 rounded-full max-w-picSize  "
+              className="p-5 rounded-full max-w-picSize items-center mx-auto "
             />
           </div>
-        </div> */}
+        </div>
         <div>
           <h1 className="font-bold text-4xl tracking-wide pb-2 font-serif   ">
             Rohit Kumar Amdahl!
