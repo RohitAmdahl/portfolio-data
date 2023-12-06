@@ -63,7 +63,7 @@ const HomePage: React.FC = () => {
           </li>
           <li className="capitalize">Basic End To End testing</li>
           <li className="capitalize">
-            Backend:- Supabase, Firebase, MongoDB, Express.js, Node.js
+            Backend:- Supabase, Firebase, MongoDB, Express.js.
           </li>
         </ul>
       </div>
