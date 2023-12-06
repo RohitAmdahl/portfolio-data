@@ -30,12 +30,12 @@ const HomePage: React.FC = () => {
       </div>
 
       <div className="text-white container mx-auto max-w-2xl  flex flex-col justify-center items-center ">
-        <div className="border-b-2 border-blue-500 pb-4">
+        <div className="border-b-2 border-blue-500 pb-4 text-lg">
           <p className="py-1">
             Check out my School projects to that showcase my skills and
             creativity. 🎨💻 But wait,
             <Link
-              className=" px-2 text-link font-semibold hover:underline"
+              className=" px-2 text-link font-semibold hover:underline hover:italic"
               to="https://github.com/RohitAmdahl"
               target="_blank"
             >
@@ -62,7 +62,7 @@ const HomePage: React.FC = () => {
             <li className="capitalize">
               Design tools:- Figma, Adobe XD, Project management: Trello,
               <Link
-                className="hover:underline px-2 text-link font-semibold"
+                className="hover:underline px-2 text-link font-semibold hover:italic"
                 to="https://webaim.org/resources/contrastchecker/"
                 target="_blank"
               >
