@@ -18,10 +18,7 @@ export const content: Paragraph[] = [
     id: 2,
     text: "Previous employers have consistently praised my determination and willingness to go above and beyond. I possess a quick learning ability and can adapt seamlessly to diverse situations and work environments. I am dedicated to working hard to achieve my goals.",
   },
-  {
-    id: 3,
-    text: "My aspiration is to work within a highly skilled and experienced team, where opportunities for development and active engagement in a positive work environment are valued. I am confident that I will find these qualities within your organization.",
-  },
+
   {
     id: 4,
     text: "I would greatly appreciate the chance to provide a more detailed introduction in an interview. For any additional information, please feel free to reach me on my mobile at 40538464.",
