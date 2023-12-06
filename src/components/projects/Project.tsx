@@ -31,7 +31,7 @@ const Project: React.FC = () => {
               type: "string",
               duration: 0.9,
             }}
-            className="m-4 text-text_ p-4 border-b-4  container mx-auto flex flex-col items-center gap-4 md:max-w-5xl lg:max-w-5xl "
+            className="m-4 text-text_ p-4 border-b-2  container mx-auto flex flex-col items-center gap-4 md:max-w-4xl lg:max-w-4xl border-blue-500 "
             key={item.id}
           >
             <div className="max-w-lg p-1">
@@ -60,7 +60,7 @@ const Project: React.FC = () => {
                   target="_blank"
                   to={githubLink}
                 >
-                  Github
+                  GitHub
                 </Link>
               </div>
             </div>

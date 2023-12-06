@@ -30,7 +30,7 @@ const HomePage: React.FC = () => {
       </div>
 
       <div className="text-white container mx-auto max-w-2xl  flex flex-col justify-center items-center ">
-        <div>
+        <div className="border-b-2 border-blue-500 pb-4">
           <p className="py-1">
             Check out my School projects to that showcase my skills and
             creativity. 🎨💻 But wait,
@@ -44,7 +44,7 @@ const HomePage: React.FC = () => {
             </Link>
           </p>
         </div>
-        <div>
+        <div className="my-4 py-5">
           <p className="font-bold text-2xl tracking-wide pb-2 font-serif ">
             Skills
           </p>
@@ -75,7 +75,7 @@ const HomePage: React.FC = () => {
         </ul>
       </div>
 
-      <div className="container mx-auto max-w-2xl p-4 m-3 border-b-2 border-gray-400">
+      <div className="container mx-auto max-w-2xl p-4 m-3 border-blue-500 border-b-2 ">
         <ul className="flex justify-between cursor-pointer m-4">
           <motion.li
             className="px-2 py-2 bg-gray-100 rounded-lg transition duration-150 ease-in-out hover:rounded-full hover:bg-blue-700 hover:text-red-200 font-bold shadow-xl"
