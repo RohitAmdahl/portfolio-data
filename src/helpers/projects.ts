@@ -4,7 +4,7 @@ import oneShop from "../assets/projectImg/one-shop.png";
 import aution from "../assets/projectImg/auction.png";
 import rainy from "../assets/projectImg/rainyday.png";
 import science from "../assets/projectImg/science.png";
-import profile from "../assets/projectImg/main_porfolio.png";
+// import profile from "../assets/projectImg/main_porfolio.png";
 
 export type project = {
   id: number;
