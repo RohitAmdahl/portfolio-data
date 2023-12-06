@@ -19,7 +19,7 @@ const HomePage: React.FC = () => {
             />
           </div>
           <div>
-            <h1 className="font-bold text-4xl tracking-wide pb-2 font-serif">
+            <h1 className="font-bold text-2xl md:text-3xl lg:text-4xl tracking-wide pb-2 font-serif">
               Rohit Kumar Amdahl!
             </h1>
             <h2 className="font-bold text-2xl tracking-wide pb-2 font-serif">
