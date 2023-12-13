@@ -14,9 +14,12 @@ const Project: React.FC = () => {
           Presenting my portfolio of personally crafted projects, each stemming
           from individual tasks and exam assignments. Through project
           development, I've garnered invaluable learning experiences, honing
-          problem-solving skills. I take pride in designing every project using
-          Figma and organizing tasks efficiently with Trello, showcasing not
-          just the outcome but the journey of continual growth and innovation.
+          problem-solving skills.
+        </p>
+        <p className="text-text_ p-4">
+          I take pride in designing every project using Figma and organizing
+          tasks efficiently with Trello, showcasing not just the outcome but the
+          journey of continual growth and innovation.
         </p>
       </div>
 
