@@ -53,7 +53,9 @@ const Project: React.FC = () => {
                 <h1 className="font-bold capitalize text-lg py-3 ">{title}</h1>
                 <p>{description}</p>
               </div>
-              <p className="lg:p-2 ">{description_}</p>
+              <div>
+                <p className="lg:p-2 ">{description_}</p>
+              </div>
               <div className="flex justify-between items-center flex-wrap m-4 lg:grid lg:grid-cols-2 lg:gap-6 text-center ">
                 <Link
                   className=" w-full cursor-pointer font-semibold px-2 py-2 m-4 bg-blue-800 text-white hover:bg-gray-800 transition-all duration-150 max-w-md rounded-lg"
