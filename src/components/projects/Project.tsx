@@ -21,7 +21,14 @@ const Project: React.FC = () => {
       </div>
 
       {data.map((item: project) => {
-        const { title, description, githubLink, imgUrl, liveDemo } = item;
+        const {
+          title,
+          description,
+          description_,
+          githubLink,
+          imgUrl,
+          liveDemo,
+        } = item;
         return (
           <motion.div
             initial={{ opacity: 0 }}
@@ -45,6 +52,7 @@ const Project: React.FC = () => {
               <div className="max-w-4xl lg:p-2  ">
                 <h1 className="font-bold capitalize text-lg py-3 ">{title}</h1>
                 <p>{description}</p>
+                <p>{description_}</p>
               </div>
               <div className="flex justify-between items-center flex-wrap m-4 lg:grid lg:grid-cols-2 lg:gap-6 text-center ">
                 <Link
