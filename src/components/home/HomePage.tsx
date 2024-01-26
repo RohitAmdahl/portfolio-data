@@ -1,10 +1,6 @@
 import MyAvatar from "../../assets/avatar_profile_.png";
-import { BsLinkedin, BsGithub, BsEnvelopeAt } from "react-icons/bs";
-import { AiOutlineFilePdf } from "react-icons/ai";
-import { Link } from "react-router-dom";
-import { motion } from "framer-motion";
+
 import Project from "../projects/Project";
-import resume from "../../assets/Rohit_Kumar.pdf";
 
 const HomePage: React.FC = () => {
   return (
