@@ -15,4 +15,9 @@ export const navItems: NavigationLinks[] = [
     link: "/about",
     id: 2,
   },
+  {
+    name: "Articles",
+    link: "/Articles",
+    id: 3,
+  },
 ];
