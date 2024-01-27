@@ -11,13 +11,18 @@ export const navItems: NavigationLinks[] = [
     id: 1,
   },
   {
-    name: "About",
-    link: "/about",
+    name: "Projects",
+    link: "/project",
     id: 2,
   },
   {
     name: "Articles",
     link: "/Articles",
     id: 3,
+  },
+  {
+    name: "CV",
+    link: "CV",
+    id: 4,
   },
 ];

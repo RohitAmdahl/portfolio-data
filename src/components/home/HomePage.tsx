@@ -1,30 +1,22 @@
-import MyAvatar from "../../assets/avatar_profile_.png";
+import myPic from "../../assets/rohitImg.jpg";
 
-import Project from "../projects/Project";
+// import Project from "../projects/Project";
 
 const HomePage: React.FC = () => {
   return (
     <>
-      <div className="m-10 text-text_ ">
-        <div className=" flex justify-center flex-wrap items-center lg:grid lg:grid-cols-2 lg:max-w-5xl gap-2 mx-auto">
-          <div className="mx-auto">
-            <img
-              src={MyAvatar}
-              alt="my image"
-              className="p-5 rounded-full max-w-picSize"
-            />
-          </div>
-          <div>
-            <h1 className="font-bold text-2xl md:text-3xl lg:text-4xl tracking-wide pb-2 font-serif">
-              Rohit Kumar Amdahl
-            </h1>
-            <h2 className="font-bold text-2xl tracking-wide pb-2 font-serif">
-              Frontend Developer
-            </h2>
-          </div>
+      <section className="">
+        <div className=" max-w-md container mx-auto ">
+          <img
+            src={myPic}
+            alt="profile picture of rohit kumar amdahl in the picture he is smiling and looks very happy, he seems kind person"
+            className=""
+          />
+          <div className=" "></div>
         </div>
-      </div>
-      <Project />
+      </section>
+
+      {/* <Project /> */}
     </>
   );
 };

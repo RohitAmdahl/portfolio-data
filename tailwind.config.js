@@ -22,12 +22,15 @@ export default {
         base_: "#ADC2D1",
         text_: "#E0E0E0",
         link: "#00FF88",
+        backgroundColor: "#DCF2F1",
       },
       backgroundImage: {
-        "theme-pattern": "url('/src/assets/theme.png')",
+        pattern: "url('/src/assets/theme.png')",
       },
       fontFamily: {
         pins: ["Roboto Condensed", "sans-serif"],
+        new: ["Sixtyfour", "sans-serif"],
+        Philosopher: ["'Philosopher'", "sans-serif"],
       },
     },
   },
