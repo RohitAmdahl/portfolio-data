@@ -10,10 +10,10 @@ const HomePage: React.FC = () => {
           <img
             src={myPic}
             alt="profile picture of rohit kumar amdahl in the picture he is smiling and looks very happy, he seems kind person"
-            className=" rounded-br-3xl rounded-tl-3xl"
+            className=" rounded-br-[120px] rounded-tl-[120px] p-1 border-dashed border-4 border-black hover:border-dotted hover:border-4 hover:border-backgroundColor transition duration-300"
           />
         </div>
-        <h1 className="font-Philosopher text-3xl py-2 text-center">
+        <h1 className="font-Philosopher text-3xl py-4 text-center">
           Frontend Developer, Code Enthusiast, Article Author
         </h1>
         <p className="font-sans text-xl py-2 mx-auto max-w-md text-center">
