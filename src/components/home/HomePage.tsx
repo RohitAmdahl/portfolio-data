@@ -59,12 +59,9 @@ const HomePage: React.FC = () => {
           </div>
         </div>
         <div className="font-philosopher text-lg bg-backgroundColor">
-          <div className="text-center font-philosopher text-3xl p-8 ">
-            Let's connect! Find me on Outlook, LinkedIn, Discord, or give me a
-            call.
-            <p className="mt-4">
-              Reach out and let's share thoughts &#128512;.
-            </p>
+          <div className="text-center font-philosopher  p-8 ">
+            <p className="Font-bold text-3xl">Get in touch</p>
+            <p> Find me on Outlook, LinkedIn, Discord, or give me a call.</p>
           </div>
           <div className="grid grid-cols-2 gap-4 max-w-2xl container mx-auto p-4">
             <Link
