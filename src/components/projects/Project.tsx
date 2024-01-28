@@ -1,22 +1,23 @@
 import { project, data } from "../../helpers/projects";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
+import { FaGithub } from "react-icons/fa";
+import { IoIosGlobe } from "react-icons/io";
 
 const Project: React.FC = () => {
   return (
     <>
-      <div className="container mx-auto max-w-4xl  py-4 m-4">
-        <h3 className="text-2xl text-center capitalize font-serif font-bold text-text_">
-          " The projects "
-        </h3>
+      <div className="container mx-auto max-w-4xl">
+        <h1 className="font-sixtyfour text-3xl py-4 text-center">
+          The projects
+        </h1>
 
-        <p className="text-text_ p-4">
-          Presenting my portfolio of personally crafted projects, each stemming
-          from individual tasks and exam assignments. Through project
-          development, I've garnered invaluable learning experiences, honing
-          problem-solving skills.
+        <p className=" font-roboto p-4 lg:p-2">
+          Presenting my portfolio of personally crafted projects. Through
+          project development, I've garnered invaluable learning experiences,
+          honing problem-solving skills.
         </p>
-        <p className="text-text_ p-4">
+        <p className=" font-roboto p-4 lg:p-2">
           I take pride in designing every project using Figma and organizing
           tasks efficiently with Trello, showcasing not just the outcome but the
           journey of continual growth and innovation.
@@ -31,6 +32,7 @@ const Project: React.FC = () => {
           githubLink,
           imgUrl,
           liveDemo,
+          tech,
         } = item;
         return (
           <motion.div
@@ -41,40 +43,59 @@ const Project: React.FC = () => {
               type: "string",
               duration: 0.9,
             }}
-            className="m-4 text-text_ p-4 border-b-2  container mx-auto flex flex-col items-center gap-4 md:max-w-4xl lg:max-w-4xl border-blue-500 "
+            className="m-4 p-4 border-b-2 container mx-auto flex flex-col items-center gap-4 md:max-w-xl lg:max-w-4xl"
             key={item.id}
           >
-            <div className="max-w-lg p-1">
+            <div className=" p-1">
               <img
                 src={imgUrl}
                 alt="image of laptop mockups a display of projects"
                 title={title}
+                className=""
               />
             </div>
-            <div className=" lg:m-8 text-text_">
-              <div className="max-w-4xl lg:p-2  ">
-                <h1 className="font-bold capitalize text-lg py-3 ">{title}</h1>
-                <p>{description}</p>
+            <div className=" lg:m-8 ">
+              <div className="max-w-lg md:max-w-xl lg:p-2 lg:max-w-3xl">
+                <h2 className="font-sixtyfour capitalize text-lg py-3 ">
+                  {title}
+                </h2>
+                <p className="font-roboto p-4 lg:p-2">{description}</p>
               </div>
-              <div>
-                <p className="lg:p-2 ">{description_}</p>
+              <div className="max-w-lg md:max-w-xl lg:p-2 lg:max-w-3xl">
+                <p className="font-roboto p-4">{description_}</p>
               </div>
-              <div className="flex justify-between items-center flex-wrap m-4 lg:grid lg:grid-cols-2 lg:gap-6 text-center ">
-                <Link
-                  className=" w-full cursor-pointer font-semibold px-2 py-2 m-4 bg-blue-800 text-white hover:bg-gray-800 transition-all duration-150 max-w-md rounded-lg"
-                  target="_blank"
-                  to={liveDemo}
-                >
-                  Live Demo
-                </Link>
-
-                <Link
-                  className=" w-full cursor-pointer font-semibold px-2 py-2 m-4 bg-blue-800 text-white hover:bg-gray-800 transition-all duration-150 max-w-md rounded-lg"
-                  target="_blank"
-                  to={githubLink}
-                >
-                  GitHub
-                </Link>
+              <div className="flex flex-wrap font-philosopher capitalize items-center gap-2">
+                {tech &&
+                  tech.map((techItem, index) => (
+                    <span
+                      key={index}
+                      className="bg-white text-black px-2 py-2 "
+                    >
+                      {techItem}
+                    </span>
+                  ))}
+              </div>
+              <div className=" flex">
+                <div className=" m-4 ">
+                  <Link
+                    className=" flex justify-center px-2 gap-2 items-center font-philosopher text-lg fold-bold relative rounded border-2 border-black bg-white py-2 text-base font-bold text-black transition duration-100 hover:bg-red hover:text-white shadow-shadow "
+                    target="_blank"
+                    to={liveDemo}
+                  >
+                    <IoIosGlobe size={24} />
+                    Live Demo
+                  </Link>
+                </div>
+                <div className="m-4">
+                  <Link
+                    className=" flex justify-center px-2 gap-2 items-center font-philosopher text-lg fold-bold relative rounded border-2 border-black bg-white py-2 text-base font-bold text-black transition duration-100 hover:bg-red hover:text-white shadow-shadow "
+                    target="_blank"
+                    to={githubLink}
+                  >
+                    <FaGithub size={24} />
+                    GitHub
+                  </Link>
+                </div>
               </div>
             </div>
           </motion.div>
