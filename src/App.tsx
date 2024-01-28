@@ -4,7 +4,9 @@ import { Route, Routes } from "react-router-dom";
 import Layout from "./layout/Layout";
 const HomePage = lazy(() => import("./pages/Home"));
 
-const About = lazy(() => import("./pages/About"));
+const ProjectsPage = lazy(() => import("./pages/Projects"));
+const ArticlePage = lazy(() => import("./pages/Blogs"));
+const CvPage = lazy(() => import("./pages/Cv"));
 
 function App() {
   return (
@@ -13,12 +15,12 @@ function App() {
         <Routes>
           <Route path="/" element={<Layout />}>
             <Route index element={<HomePage />} />
-            <Route path="/about" element={<About />} />
+            <Route path="/project" element={<ProjectsPage />} />
+            <Route path="/blogs" element={<ArticlePage />} />
+            <Route path="/Cv" element={<CvPage />} />
             <Route
               path="*"
-              element={
-                <div className="bg-red-500 text-4xl">Route not found</div>
-              }
+              element={<div className="bg-red text-4xl">Route not found</div>}
             />
           </Route>
         </Routes>

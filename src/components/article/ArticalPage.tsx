@@ -29,7 +29,7 @@ export const content: Paragraph[] = [
   },
 ];
 
-const AboutPage: React.FC = (): JSX.Element => {
+const ArticalPage: React.FC = (): JSX.Element => {
   return (
     <div className="text-lg container mx-auto my-9 text-text_">
       <h1 className="text-xl pb-4 m-2 font-serif font-bold">
@@ -50,4 +50,4 @@ const AboutPage: React.FC = (): JSX.Element => {
   );
 };
 
-export default AboutPage;
+export default ArticalPage;
