@@ -15,7 +15,7 @@ const HomePage: React.FC = () => {
           <img
             src={myPic}
             alt="profile picture of rohit kumar amdahl in the picture he is smiling and looks very happy, he seems kind person"
-            className="p-10 max-w-sm animated-dashed-border bordermvent active-animatioon"
+            className=" max-w-sm animated-dashed-border bordermvent active-animatioon"
           />
         </div>
         <div className="max-w-4xl container mx-auto p-4">
@@ -42,7 +42,9 @@ const HomePage: React.FC = () => {
         </div>
         <div className="w-full bg-backgroundColor p-4">
           <div className="flex p-2 flex-wrap justify-center gap-6">
-            <p className="font-sixtyfour text-2xl">Code Code Code..........</p>
+            <p className="font-sixtyfour text-center text-3xl">
+              Code Code Code....
+            </p>
             <div className="max-w-sm flex flex-col">
               <Link
                 className="flex flex-col px-9 gap-2 items-center font-philosopher text-lg
@@ -56,9 +58,13 @@ const HomePage: React.FC = () => {
             </div>
           </div>
         </div>
-        <div className="font-philosopher text-lg">
+        <div className="font-philosopher text-lg bg-backgroundColor">
           <div className="text-center font-philosopher text-3xl p-8 ">
-            <p>Contect me via email, linkedin or phone</p>
+            Let's connect! Find me on Outlook, LinkedIn, Discord, or give me a
+            call.
+            <p className="mt-4">
+              Reach out and let's share thoughts &#128512;.
+            </p>
           </div>
           <div className="grid grid-cols-2 gap-4 max-w-2xl container mx-auto p-4">
             <Link
