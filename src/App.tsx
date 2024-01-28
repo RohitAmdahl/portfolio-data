@@ -17,7 +17,7 @@ function App() {
             <Route index element={<HomePage />} />
             <Route path="/project" element={<ProjectsPage />} />
             <Route path="/blogs" element={<ArticlePage />} />
-            <Route path="/Cv" element={<CvPage />} />
+            <Route path="/about" element={<CvPage />} />
             <Route
               path="*"
               element={<div className="bg-red text-4xl">Route not found</div>}
