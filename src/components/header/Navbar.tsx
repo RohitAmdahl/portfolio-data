@@ -8,11 +8,13 @@ const Navbar: React.FC = () => {
     <>
       <div className="max-w-4xl mx-auto">
         <div className="lg:m-4 m-1 text-center ">
-          <NavLink className=" font-bold text-2xl" to="/">
-            <span className="font-new p-2">Rohit kumar Amdahl</span>
+          <NavLink className=" text-2xl" to="/">
+            <span className="font-sixtyfour p-2 from-neutral-500 font-normal tracking-wider ">
+              Rohit kumar Amdahl
+            </span>
           </NavLink>
         </div>
-        <nav className="flex py-5 font-Philosopher font-bold">
+        <nav className="flex py-5 font-philosopher font-bold">
           <ul className="flex justify-around w-full">
             {navItems.map((item: NavigationLinks) => (
               <li className="px-3" key={item.id}>
