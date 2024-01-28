@@ -1,5 +1,10 @@
+import Project from "../components/projects/Project";
 const Projects: React.FC = (): JSX.Element => {
-  return <div className="max-w-4xl container mx-auto p-4">projects</div>;
+  return (
+    <div className="bg-backgroundColor">
+      <Project />
+    </div>
+  );
 };
 
 export default Projects;
