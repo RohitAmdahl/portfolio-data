@@ -17,12 +17,12 @@ export const navItems: NavigationLinks[] = [
   },
   {
     name: "Articles",
-    link: "/Articles",
+    link: "/blogs",
     id: 3,
   },
   {
     name: "CV",
-    link: "CV",
+    link: "cv",
     id: 4,
   },
 ];
