@@ -6,7 +6,7 @@ const HomePage = lazy(() => import("./pages/Home"));
 
 const ProjectsPage = lazy(() => import("./pages/Projects"));
 const ArticlePage = lazy(() => import("./pages/Blogs"));
-const CvPage = lazy(() => import("./pages/Cv"));
+const CvPage = lazy(() => import("./pages/About"));
 
 function App() {
   return (
