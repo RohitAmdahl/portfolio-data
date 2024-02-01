@@ -10,9 +10,4 @@ export const navItems: NavigationLinks[] = [
     link: "/",
     id: 1,
   },
-  {
-    name: "About",
-    link: "/about",
-    id: 2,
-  },
 ];
