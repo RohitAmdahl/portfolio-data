@@ -1,21 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;500;600;700;800&display=swap");
 
+@import url("https://fonts.googleapis.com/css2?family=Sixtyfour&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Workbench&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-/* * {
-  outline: 2px solid red;
-} */
 body {
-  @apply bg-theme-pattern bg-base;
+  @apply bg-pattern bg-stone-100 bg-repeat;
 }
-/* .dark {
-  background-color: #1f2937; 
-  color: #fafafa; 
-}
-
-.light {
-  background-color: #fafafa; 
-  color: #1f2937; 
-}  */

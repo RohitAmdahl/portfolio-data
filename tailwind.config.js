@@ -22,12 +22,20 @@ export default {
         base_: "#ADC2D1",
         text_: "#E0E0E0",
         link: "#00FF88",
+        red: "#A71666",
+        backgroundColor: "#DCF2F1",
       },
       backgroundImage: {
-        "theme-pattern": "url('/src/assets/theme.png')",
+        pattern: "url('/src/assets/theme.png')",
       },
       fontFamily: {
-        pins: ["Roboto Condensed", "sans-serif"],
+        roboto: ["Roboto Condensed", "sans-serif"],
+        sixtyfour: ["Sixtyfour", "sans-serif"],
+        philosopher: ["'Philosopher'", "sans-serif"],
+        workbench: ["'Workbench'", "sans-serif"],
+      },
+      boxShadow: {
+        shadow: "2px 3px 4px 1px",
       },
     },
   },
