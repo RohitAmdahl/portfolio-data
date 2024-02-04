@@ -1,53 +1,55 @@
-import React from "react";
+import { blogs, Blog } from "../../helpers/blog";
+import { Link } from "react-router-dom";
 
-export type Paragraph = {
-  id: number;
-  text: string;
-};
-
-export const content: Paragraph[] = [
-  {
-    id: 0,
-    text: "Coding and IT are my passion, cultivated through specialized studies in Frontend development at Noroff and a Bachelor's degree in Design. My expertise extends to freelance projects in 3D BIM, sparking my drive to enhance creativity and user-friendliness in digital experiences. I am dedicated to pushing the boundaries of innovation and usability in IT and web development.",
-  },
-  {
-    id: 1,
-    text: "Before venturing into IT, I predominantly worked in architectural firms. My last role was at Enerhaugen Arkitektkontor AS, where I served as a BIM/technical draftsman. Colleagues often describe me as an optimistic, social, and enthusiastic team player.",
-  },
-  {
-    id: 2,
-    text: "Previous employers have consistently praised my determination and willingness to go above and beyond. I possess a quick learning ability and can adapt seamlessly to diverse situations and work environments. I am dedicated to working hard to achieve my goals.",
-  },
-
-  {
-    id: 4,
-    text: "I would greatly appreciate the chance to provide a more detailed introduction in an interview. For any additional information, please feel free to reach me on my mobile at 40538464.",
-  },
-  {
-    id: 5,
-    text: "I come highly recommended, with excellent references from my previous workplaces, and I am more than willing to provide names and phone numbers upon request.",
-  },
-];
-
-const ArticalPage: React.FC = (): JSX.Element => {
+const ArticlePage: React.FC = (): JSX.Element => {
   return (
-    <div className="text-lg container mx-auto my-9 text-text_">
-      <h1 className="text-xl pb-4 m-2 font-serif font-bold">
-        About Me <span>👋</span>
-      </h1>
-      <h2 className="text-xl pb-4 m-2 font-serif font-bold">Hi!</h2>
-      {content.map((p: Paragraph): JSX.Element => {
-        const { id, text } = p;
-        return (
-          <p key={id} className="pb-4 m-2">
-            {text}
-          </p>
-        );
-      })}
-      <p>Warm regards,</p>
-      <p>Rohit kumar Amdahl</p>
-    </div>
+    <>
+      <div>
+        <h1 className="font-philosopher text-3xl py-4 text-center">Articles</h1>
+      </div>
+      <div className="container mx-auto max-w-5xl lg:grid lg:grid-cols-2 flex flex-wrap lg:gap-4 p-6">
+        {blogs.map((article: Blog) => (
+          <div
+            key={article.id}
+            className="max-w-sm container mx-auto p-4 shadow-lg border-2 border-gray-200 rounded-xl m-2"
+          >
+            <img
+              src={article.imageUrl}
+              alt={article.title}
+              className="w-full"
+            />
+            <div>
+              <p className=" font-roboto text-2xl font-bold py-4">
+                {article.title}
+              </p>
+            </div>
+            <p>{article.description}</p>
+            <div className="flex justify-between items-center p-2">
+              <div className=" font-roboto text-lg font-bold py-4">
+                <p>Article by:</p>
+              </div>
+              <p className=" font-roboto text-lg font-bold py-4">
+                {article.authorName}
+              </p>
+              <img
+                className="h-12 w-12 rounded-full ring-2 ring-white"
+                src={article.authorAvatar}
+                alt={article.authorName}
+              />
+            </div>
+            <Link
+              className="text-xl hover:underline hover:text-blue-700 transition duration-100"
+              to={article.link}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Read More
+            </Link>
+          </div>
+        ))}
+      </div>
+    </>
   );
 };
 
-export default ArticalPage;
+export default ArticlePage;
