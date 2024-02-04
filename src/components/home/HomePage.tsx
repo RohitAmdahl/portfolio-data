@@ -20,8 +20,8 @@ const HomePage: React.FC = () => {
           />
         </div>
         <div className="max-w-4xl container mx-auto p-4">
-          <h1 className="font-philosopher text-3xl py-4 text-center">
-            Frontend Developer, Code Enthusiast, Article Author.
+          <h1 className="font-philosopher font-bold text-3xl py-4 text-center">
+            Frontend Developer.
           </h1>
           <h2 className="font-philosopher text-xl py-2 mx-auto max-w-md text-center">
             Passionate about sharing coding knowledge and dedicated to crafting
