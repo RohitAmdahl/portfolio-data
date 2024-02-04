@@ -6,7 +6,6 @@ import { Link } from "react-router-dom";
 import { MdOutlineEmail } from "react-icons/md";
 import { FaDiscord } from "react-icons/fa";
 import Publication from "./Publication";
-// import Project from "../projects/Project";
 
 const HomePage: React.FC = () => {
   return (
