@@ -2,8 +2,8 @@ import { lazy, Suspense } from "react";
 import { FidgetSpinner } from "react-loader-spinner";
 import { Route, Routes } from "react-router-dom";
 import Layout from "./layout/Layout";
-const HomePage = lazy(() => import("./pages/Home"));
 
+const HomePage = lazy(() => import("./pages/Home"));
 const ProjectsPage = lazy(() => import("./pages/Projects"));
 const ArticlePage = lazy(() => import("./pages/Blogs"));
 const About = lazy(() => import("./pages/About"));
