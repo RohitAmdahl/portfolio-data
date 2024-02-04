@@ -30,7 +30,7 @@ export const blogs: Blog[] = [
     description: "Coding Confidence, A Junior Developer's Journey",
     authorAvatar: avatar,
     authorName: "Rohit Kumar Amdahl",
-    link: "https://www.linkedin.com/pulse/coding-confidence-rohit-kumar-amdahl-mfg4f%3FtrackingId=4em9NHwaTJi5qRTGOxvCbw%253D%253D/?trackingId=4em9NHwaTJi5qRTGOxvCbw%3D%3D",
+    link: "https://www.linkedin.com/pulse/coding-confidence-rohit-kumar-amdahl-mfg4f/",
   },
   {
     id: 3,
