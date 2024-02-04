@@ -5,6 +5,7 @@ import { FaPhoneAlt } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import { MdOutlineEmail } from "react-icons/md";
 import { FaDiscord } from "react-icons/fa";
+import Publication from "./Publication";
 // import Project from "../projects/Project";
 
 const HomePage: React.FC = () => {
@@ -42,6 +43,9 @@ const HomePage: React.FC = () => {
           <p className="font-roboto text-lg py-2 text-center">
             In short i will say, i like to write and i like to code.
           </p>
+        </div>
+        <div className="max-w-4xl container mx-auto p-4">
+          <Publication />
         </div>
         <div className="w-full bg-backgroundColor p-4">
           <div className="flex p-2 flex-wrap justify-center gap-6">
