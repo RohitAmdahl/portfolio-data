@@ -28,16 +28,18 @@ const HomePage: React.FC = () => {
             accessible products.
           </h2>
           <p className="font-roboto text-lg py-2">
-            Welcome to my website! I'm a Frontend Developer based in Oslo,
-            Norway. I started by studying Accessory Design and later worked in
-            architectural firms, drawing plans, and creating 3D animations. In
-            2021, I began a two-year journey into Frontend Development at
-            Noroff. I love coding and expressing that love through writing.I
-            write about different topics, aiming to make them easy for everyone
-            to understand. Sharing knowledge is important to me, and I enjoy
+            Welcome to my website! I'm a dedicated Frontend Developer based in
+            Oslo, Norway, currently expanding my expertise in Java and delving
+            into the world of object-oriented programming. <br /> In 2021, I
+            began a two-year journey into Frontend Development at Noroff. I love
+            coding and expressing that love through writing.I write about
+            different topics, aiming to make them easy for everyone to
+            understand. Sharing knowledge is important to me, and I enjoy
             learning from other programmers.
+            <br /> I started by studying Accessory Design and later worked in
+            architectural firms, drawing plans, and creating 3D animations.
           </p>
-          <p className="font-philosopher text-lg py-2 text-center">
+          <p className="font-roboto text-lg py-2 text-center">
             In short i will say, i like to write and i like to code.
           </p>
         </div>
