@@ -4,8 +4,8 @@ import { Link } from "react-router-dom";
 const ArticlePage: React.FC = (): JSX.Element => {
   return (
     <>
-      <div>
-        <h1 className="font-philosopher text-3xl py-4 text-center">Articles</h1>
+      <div className="font-sixtyfour text-3xl ">
+        <h1 className="py-4 text-center">Articles</h1>
       </div>
       <div className="container mx-auto max-w-5xl lg:grid lg:grid-cols-2 flex flex-wrap lg:gap-4 p-6">
         {blogs.map((article: Blog) => (
