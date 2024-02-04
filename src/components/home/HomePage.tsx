@@ -11,7 +11,7 @@ const HomePage: React.FC = () => {
   return (
     <>
       <section className="w-full">
-        <div className="max-w-sm container mx-auto P-2">
+        <div className="max-w-sm container mx-auto items-center P-2">
           <span className="w-10 z-10 h-10 rounded-full p-2 absolute bg-orange-600  shadow-inner shadow-yellow-800  "></span>
           <img
             src={myPic}
