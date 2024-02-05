@@ -39,8 +39,8 @@ const HomePage: React.FC = () => {
             <br /> I started by studying Accessory Design and later worked in
             architectural firms, drawing plans, and creating 3D animations.
           </p>
-          <p className="font-roboto text-lg py-2 text-center">
-            In short i will say, i like to write and i like to code.
+          <p className="font-roboto text-xl py-2 text-center">
+            - In short i will say, i like to write and i like to code.
           </p>
         </div>
         <div className="max-w-4xl  font-roboto  container mx-auto text-center p-4">
