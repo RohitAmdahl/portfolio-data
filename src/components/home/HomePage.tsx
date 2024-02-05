@@ -11,12 +11,12 @@ const HomePage: React.FC = () => {
   return (
     <>
       <section className="w-full">
-        <div className="max-w-sm container mx-auto items-center P-2">
-          <span className="w-10 z-10 h-10 rounded-full p-2 absolute bg-orange-600  shadow-inner shadow-yellow-800  "></span>
+        <div className="max-w-xs container mx-auto items-center P-2">
+          <span className="w-10 z-10 h-10 rounded-full p-2 absolute bg-orange-600  shadow-inner shadow-yellow-800   "></span>
           <img
             src={myPic}
             alt="profile picture of rohit kumar amdahl in the picture he is smiling and looks very happy, he seems kind person"
-            className=" max-w-sm container mx-auto rotate-3 p-6 shadow-2xl shadow-zinc-600 bg-backgroundColor rounded-xl relative"
+            className=" max-w-xs container mx-auto rotate-3 p-6 shadow-2xl shadow-zinc-600 bg-backgroundColor rounded-xl relative"
           />
         </div>
         <div className="max-w-4xl container mx-auto p-4">
