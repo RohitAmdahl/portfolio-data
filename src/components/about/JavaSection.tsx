@@ -4,11 +4,17 @@ const JavaSection = () => {
   return (
     <>
       <div className="py-4">
-        <img
-          className="max-w-4xl container mx-auto rounded-xl"
-          src={javaPic}
-          alt="code in java language picture"
-        />
+        <div>
+          <img
+            className="max-w-4xl container mx-auto "
+            src={javaPic}
+            alt="code in java language picture"
+          />
+          <p className="text-md text-center font-light ">
+            Java coding in IntelliJ, practising object-oriented programming.
+          </p>
+        </div>
+
         <p className="font-roboto text-xl py-4">
           You might have questions about WHY JAVA ?
         </p>
