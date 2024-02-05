@@ -43,6 +43,12 @@ const HomePage: React.FC = () => {
             In short i will say, i like to write and i like to code.
           </p>
         </div>
+        <div className="max-w-4xl  font-roboto  container mx-auto text-center p-4">
+          <p className="text-xl font-bold lg:text-2xl">
+            – Difficult to create good names, thinks Rohit, but he has 3 good
+            tips. My article is published on kode24.
+          </p>
+        </div>
         <div className="max-w-4xl container mx-auto p-4">
           <Publication />
         </div>
