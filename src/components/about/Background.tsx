@@ -1,3 +1,4 @@
+
 import plan from "../../assets/aboutPic/plan.png";
 import illustration from "../../assets/aboutPic/illustration.jpg";
 const Background = () => {
