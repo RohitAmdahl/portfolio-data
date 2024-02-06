@@ -40,11 +40,15 @@ const JavaSection = () => {
         </p>
       </div>
       <div className="py-4">
+        <h3 className="font-roboto text-xl py-4">My background</h3>
         <p>
-          My background includes valuable experience from architecture firms,
-          where I specialized in creating plan drawings, and 3D models through
-          BIM (Building Information Modeling) softwares like:- <br /> Autodesk
-          Revit, AutoCAD, ArchiCad.
+          I have a strong background in architecture, with valuable experience
+          gained from working in architecture firms. My specialization lies in
+          creating plan drawings and 3D models using BIM (Building Information
+          Modeling) software such as Autodesk Revit, AutoCAD, ArchiCAD, and
+          Twinmotion. Additionally, I am proficient in using Architerra for
+          generating 3D terrain, utilizing x and y coordinates based on the
+          Norwegian maps coordinate system.
         </p>
       </div>
     </>
