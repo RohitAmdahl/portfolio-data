@@ -15,9 +15,9 @@ const JavaSection = () => {
           </p>
         </div>
 
-        <p className="font-roboto text-xl py-4">
+        <h2 className="font-roboto text-xl py-4">
           You might have questions about WHY JAVA ?
-        </p>
+        </h2>
         <p>
           I usually attend different meetups because I like to keep myself
           updated. I went to a JavaBin meetup where I found Java quite
@@ -34,10 +34,17 @@ const JavaSection = () => {
         </p>
       </div>
       <div>
-        <p className="text-3xl">img added books here</p>
         <p>
-          I Like to read books about Java, Domain-Driven Design also know as in
-          a short form DDD, Clean code, Agile development and Accessibility.
+          I also enjoy learning about Domain-Driven Design also know as in a
+          short form DDD, Clean code, Agile development and Accessibility.
+        </p>
+      </div>
+      <div className="py-4">
+        <p>
+          My background includes valuable experience from architecture firms,
+          where I specialized in creating plan drawings, and 3D models through
+          BIM (Building Information Modeling) softwares like:- <br /> Autodesk
+          Revit, AutoCAD, ArchiCad.
         </p>
       </div>
     </>
