@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import JavaSection from "./JavaSection";
+import Background from "./Background";
 
 const AboutMe = () => {
   return (
@@ -46,6 +47,9 @@ const AboutMe = () => {
       </div>
       <div>
         <JavaSection />
+      </div>
+      <div>
+        <Background />
       </div>
     </div>
   );
