@@ -3,7 +3,7 @@ import JavaSection from "./JavaSection";
 
 const AboutMe = () => {
   return (
-    <div className="max-w-5xl mx-auto text lg ">
+    <div className="max-w-5xl mx-auto text lg p-2 ">
       <div>
         <h1 className="text-3xl font-sixtyfour pt-4 text-center ">About me</h1>
       </div>
@@ -52,15 +52,3 @@ const AboutMe = () => {
 };
 
 export default AboutMe;
-
-{
-  /* <p>
-  <ul>
-    <li>banner picture and write about my work</li>
-    <li>java code picture and text about java</li>
-    <li>books i ma reading and learning new things</li>
-    <li>always learning and sharing knowledge is my passion</li>
-    <li>my new website persnal porfolio</li>
-  </ul>
-</p>; */
-}
