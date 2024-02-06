@@ -11,12 +11,12 @@ const HomePage: React.FC = () => {
   return (
     <>
       <section className="w-full">
-        <div className="max-w-sm container mx-auto items-center P-2">
-          <span className="w-10 z-10 h-10 rounded-full p-2 absolute bg-orange-600  shadow-inner shadow-yellow-800  "></span>
+        <div className="max-w-xs container mx-auto items-center P-2">
+          <span className="w-10 z-10 h-10 rounded-full p-2 absolute bg-orange-600  shadow-inner shadow-yellow-800   "></span>
           <img
             src={myPic}
             alt="profile picture of rohit kumar amdahl in the picture he is smiling and looks very happy, he seems kind person"
-            className=" max-w-sm container mx-auto rotate-3 p-6 shadow-2xl shadow-zinc-600 bg-backgroundColor rounded-xl relative"
+            className=" max-w-xs container mx-auto rotate-3 p-6 shadow-2xl shadow-zinc-600 bg-backgroundColor rounded-xl relative"
           />
         </div>
         <div className="max-w-4xl container mx-auto p-4">
@@ -39,8 +39,14 @@ const HomePage: React.FC = () => {
             <br /> I started by studying Accessory Design and later worked in
             architectural firms, drawing plans, and creating 3D animations.
           </p>
-          <p className="font-roboto text-lg py-2 text-center">
-            In short i will say, i like to write and i like to code.
+          <p className="font-roboto text-xl py-2 text-center">
+            - In short i will say, i like to write and i like to code.
+          </p>
+        </div>
+        <div className="max-w-4xl  font-roboto  container mx-auto text-center p-4">
+          <p className="text-xl font-bold lg:text-2xl">
+            – Difficult to create good names, thinks Rohit, but he has 3 good
+            tips. My article is published on kode24.
           </p>
         </div>
         <div className="max-w-4xl container mx-auto p-4">
