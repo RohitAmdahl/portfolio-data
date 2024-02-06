@@ -32,19 +32,16 @@ const AboutMe = () => {
             </Link>
           </p>
           <p className="py-4">
-            I learned a bunch of cool stuff at Noroff school, like HTML, CSS,
+            I learned a bunch of cool skills at Noroff school, like HTML, CSS,
             JavaScript, TypeScript, React.js, Tailwind CSS, Sass, Bootstrap, and
             Vite. I also got the hang of using Netlify for deploying, and I
             learned about Git and GitHub for keeping track of my code changes.
-            Now, I'm taking it a step further by teaching myself even more, with
-            a special focus on becoming a certified Java SE 17 developer.
+            Not to forget, I've also become proficient in creating no-code
+            websites using WordPress. Now, I'm taking it a step further by
+            teaching myself even more, with a special focus on becoming a
+            certified Java SE 17 developer.i am following the OCP Java SE 17
+            certification book aiming to become a professional Java developer.
           </p>
-          {/* <p>
-            My background includes valuable experience from architecture firms,
-            where I specialized in creating plan drawings, and 3D models through
-            BIM (Building Information Modeling) softwares like Autodesk Revit,
-            AutoCAD, ArchiCad.
-          </p> */}
         </p>
       </div>
       <div>
