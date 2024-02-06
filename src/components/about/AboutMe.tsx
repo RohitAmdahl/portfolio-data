@@ -4,7 +4,7 @@ import Background from "./Background";
 
 const AboutMe = () => {
   return (
-    <div className="max-w-5xl mx-auto text lg p-2 ">
+    <div className="max-w-5xl mx-auto text lg p-4 ">
       <div>
         <h1 className="text-3xl font-sixtyfour pt-4 text-center ">About me</h1>
       </div>
