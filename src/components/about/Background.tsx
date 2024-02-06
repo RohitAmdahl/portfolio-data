@@ -34,8 +34,8 @@ const Background = () => {
         </div>
       </div>
       <p className="text-md text-center font-light py-2">
-        example of my pervious work, i have created plan drawings and 3D
-        Architectural rendering by using Enscape ,Archicad, and photoshop.
+        In past roles, I crafted detailed plan drawings and realistic 3D
+        architectural renderings using Enscape, Archicad, and Photoshop.
       </p>
     </>
   );
