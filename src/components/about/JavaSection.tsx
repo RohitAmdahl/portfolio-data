@@ -3,10 +3,10 @@ import javaPic from "../../assets/aboutPic/java.jpg";
 const JavaSection = () => {
   return (
     <>
-      <div className="py-4">
+      <div className="p-4">
         <div>
           <img
-            className="max-w-4xl container mx-auto "
+            className="max-w-4xl container mx-auto"
             src={javaPic}
             alt="code in java language picture"
           />
@@ -32,12 +32,12 @@ const JavaSection = () => {
             programming.
           </p>
         </div>
-      </div>
-      <div>
-        <p>
-          I also enjoy learning about Domain-Driven Design also know as in a
-          short form DDD, Clean code, Agile development and Accessibility.
-        </p>
+        <div>
+          <p>
+            I also enjoy learning about Domain-Driven Design also know as in a
+            short form DDD, Clean code, Agile development and Accessibility.
+          </p>
+        </div>
       </div>
     </>
   );

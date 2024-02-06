@@ -54,17 +54,17 @@ const Project: React.FC = () => {
                 className=""
               />
             </div>
-            <div className=" lg:m-8 ">
-              <div className="max-w-lg md:max-w-xl lg:p-2 lg:max-w-3xl">
+            <div className=" lg:py-4 ">
+              <div className="max-w-lg md:max-w-xl lg:p-2 lg:max-w-4xl">
                 <h2 className="font-sixtyfour capitalize text-lg py-3 ">
                   {title}
                 </h2>
                 <p className="font-roboto p-4 lg:p-2">{description}</p>
               </div>
-              <div className="max-w-lg md:max-w-xl lg:p-2 lg:max-w-3xl">
-                <p className="font-roboto p-4">{description_}</p>
+              <div className="max-w-lg md:max-w-xl lg:p-2 lg:max-w-4xl">
+                <p className="font-roboto p-4 lg:p-2">{description_}</p>
               </div>
-              <div className="flex flex-wrap font-philosopher capitalize items-center gap-2">
+              <div className="flex flex-wrap font-philosopher capitalize items-center gap-2 p-4">
                 {tech &&
                   tech.map((techItem, index) => (
                     <span
