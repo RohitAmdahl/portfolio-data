@@ -13,11 +13,7 @@ const ArticlePage: React.FC = (): JSX.Element => {
             key={article.id}
             className="max-w-sm container mx-auto p-4 shadow-lg border-2 border-gray-200 rounded-xl m-2"
           >
-            <img
-              src={article.imageUrl}
-              alt={article.title}
-              className="w-full"
-            />
+            <img src={article.imageUrl} alt={article.alt} className="w-full" />
             <div>
               <p className=" font-roboto text-2xl font-bold py-4">
                 {article.title}
