@@ -38,10 +38,11 @@ const AboutMe = () => {
             Vite. I've also mastered using Netlify for deployment and learned
             about Git and GitHub for version control. Additionally, I've
             developed proficiency in creating websites without coding using
-            WordPress. I'm expanding my knowledge by self-teaching, focusing on
-            achieving certification as a Java SE 17 developer. I'm following the
-            OCP Java SE 17 certification book, to become a professional Java
-            developer.
+            WordPress. I have also gained god knowledge and have used Jest and
+            Cypress for testing. I'm expanding my knowledge by self-teaching,
+            focusing on achieving certification as a Java SE 17 developer. I'm
+            following the OCP Java SE 17 certification book to become a
+            professional Java developer.
           </p>
         </p>
       </div>
