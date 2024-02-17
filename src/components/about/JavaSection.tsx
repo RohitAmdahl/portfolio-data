@@ -33,7 +33,7 @@ const JavaSection = () => {
           </p>
         </div>
         <div>
-          <p>
+          <p className="py-4">
             I also enjoy learning about Domain-Driven Design also know as in a
             short form DDD, Clean code, Agile development and Accessibility.
           </p>
