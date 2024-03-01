@@ -4,10 +4,11 @@ import Background from "./Background";
 
 const AboutMe = () => {
   return (
-    <div className="max-w-5xl mx-auto text lg p-4 ">
-      <div>
-        <h1 className="text-3xl font-sixtyfour pt-4 text-center ">About me</h1>
+    <div className="max-w-5xl mx-auto text lg">
+      <div className="font-sixtyfour">
+        <h1 className="text-3xl text-center py-4 ">About me</h1>
       </div>
+
       <div>
         <p className=" py-4 ">
           I am a dedicated Frontend Developer based in oslo, Norway. I have a

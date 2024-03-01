@@ -4,9 +4,9 @@ const Background = () => {
   return (
     <>
       <div className="p-4">
-        <h3 className="font-roboto text-xl py-4">
+        <h2 className="font-roboto text-xl py-4">
           My background with Innovative Techniques
-        </h3>
+        </h2>
         <p>
           I have a strong background in architecture, with valuable experience
           gained from working in architecture firms. My specialization lies in
@@ -38,11 +38,11 @@ const Background = () => {
             />
           </div>
         </div>
+        <figcaption className="text-md text-center font-light py-2">
+          In past roles, I crafted detailed plan drawings and realistic 3D
+          architectural renderings using Enscape, Archicad, and Photoshop.
+        </figcaption>
       </div>
-      <p className="text-md text-center font-light py-2">
-        In past roles, I crafted detailed plan drawings and realistic 3D
-        architectural renderings using Enscape, Archicad, and Photoshop.
-      </p>
     </>
   );
 };
