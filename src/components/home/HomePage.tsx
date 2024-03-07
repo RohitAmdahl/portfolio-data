@@ -29,7 +29,7 @@ const HomePage: React.FC = () => {
             Passionate about sharing coding knowledge and dedicated to crafting
             accessible products.
           </h2>
-          <p className="font-roboto text-lg py-2">
+          <p className="text-lg py-2">
             Welcome to my website! I'm a dedicated Frontend Developer based in
             Oslo, Norway, currently expanding my expertise in Java and delving
             into the world of object-oriented programming. <br /> In 2021, I
@@ -45,7 +45,7 @@ const HomePage: React.FC = () => {
             - In short i will say, i like to write and i like to code.
           </p>
         </div>
-        <div className="max-w-4xl  font-roboto  container mx-auto text-center p-4">
+        <div className="max-w-4xl font-roboto container mx-auto text-center p-4">
           <p className="text-xl font-bold lg:text-2xl">
             – Difficult to create good names, thinks Rohit, but he has 3 good
             tips. My article is published on kode24.
@@ -80,8 +80,7 @@ const HomePage: React.FC = () => {
           </div>
           <div className="grid grid-cols-2 gap-4 max-w-2xl container mx-auto p-4">
             <Link
-              className="flex flex-col px-9 gap-2 items-center font-philosopher text-lg
-            fold-bold relative rounded border-2 border-black bg-white py-4 text-base font-bold text-black transition duration-100 hover:bg-red hover:text-white shadow-shadow "
+              className="flex flex-col px-9 gap-2 items-center font-philosopher text-lg fold-bold relative rounded border-2 border-black bg-white py-4 text-base font-bold text-black transition duration-100 hover:bg-red hover:text-white shadow-shadow partypopper "
               to="https://www.linkedin.com/feed/"
               target="_blank"
               title="LinkedIn"

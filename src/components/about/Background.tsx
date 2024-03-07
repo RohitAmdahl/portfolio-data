@@ -48,10 +48,15 @@ const Background = () => {
           </div>
         </div>
       </div>
-      <div className="hover:underline text-center text-blue-700 transition duration-100 py-4 font-bold">
-        <Link className="text-xl" to="/src/assets/pdf/rohitPorfolio.pdf">
-          --If you are interested in See more about my architectural design and
-          my Work?
+      <div className="hover:underline text-center hover:text-blue-700 transition duration-100 py-4 font-bold underline">
+        <Link
+          target="_blank"
+          className="text-xl"
+          to="/src/assets/pdf/rohitPorfolio.pdf"
+        >
+          -- If you're interested in exploring my previous experience and work
+          at architectural Company and what I accomplished during my time there,
+          feel free to check out my architectural design portfolio.
         </Link>
       </div>
     </>
