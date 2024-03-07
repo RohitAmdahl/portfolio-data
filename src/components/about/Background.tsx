@@ -1,10 +1,11 @@
 import plan from "../../assets/aboutPic/plan.png";
 import illustration from "../../assets/aboutPic/illustration.jpg";
+import { Link } from "react-router-dom";
 const Background = () => {
   return (
     <>
       <div className="p-4">
-        <h2 className="font-roboto text-xl py-4">
+        <h2 className=" font-bold text-xl py-4">
           My background with Innovative Techniques
         </h2>
         <p>
@@ -24,24 +25,34 @@ const Background = () => {
 
         <div className="py-4 flex justify-around flex-wrap items-center">
           <div>
-            <img
-              src={plan}
-              alt="plan drawing that i create when i was working as Bim draftsman"
-              className="max-w-md container mx-auto p-2"
-            />
+            <figure>
+              <img
+                src={plan}
+                alt="plan drawing that i create when i was working as Bim draftsman"
+                className="max-w-4xl container mx-auto p-2"
+              />
+            </figure>
           </div>
           <div>
-            <img
-              src={illustration}
-              alt="architectural illustration building model edit in photo shop"
-              className="max-w-md container mx-auto p-2"
-            />
+            <figure>
+              <img
+                src={illustration}
+                alt="architectural illustration building model edit in photo shop"
+                className="max-w-4xl container mx-auto p-2"
+              />
+              <figcaption className="text-md text-center font-light py-2">
+                In past roles, I crafted detailed plan drawings and realistic 3D
+                architectural renderings using Enscape, Archicad, and Photoshop.
+              </figcaption>
+            </figure>
           </div>
         </div>
-        <figcaption className="text-md text-center font-light py-2">
-          In past roles, I crafted detailed plan drawings and realistic 3D
-          architectural renderings using Enscape, Archicad, and Photoshop.
-        </figcaption>
+      </div>
+      <div className="hover:underline text-center text-blue-700 transition duration-100 py-4 font-bold">
+        <Link className="text-xl" to="/src/assets/pdf/rohitPorfolio.pdf">
+          --If you are interested in See more about my architectural design and
+          my Work?
+        </Link>
       </div>
     </>
   );

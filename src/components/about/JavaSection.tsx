@@ -5,15 +5,20 @@ const JavaSection = () => {
     <>
       <div className="p-4">
         <div>
-          <img
-            className="max-w-4xl container mx-auto"
-            src={javaPic}
-            alt="code in java language picture"
-          />
-          <p className="text-md text-center font-light ">
-            Java coding in IntelliJ, practising object-oriented programming.
-          </p>
-          <h2 className="font-roboto text-xl py-4">
+          <figure>
+            <img
+              className="max-w-4xl container mx-auto"
+              src={javaPic}
+              alt="code in java language picture"
+            />
+            <figcaption>
+              <p className="text-md text-center font-light ">
+                Java coding in IntelliJ, practising object-oriented programming.
+              </p>
+            </figcaption>
+          </figure>
+
+          <h2 className="font-bold text-xl py-4">
             You might have questions about WHY JAVA ?
           </h2>
           <p>
