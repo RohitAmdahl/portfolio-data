@@ -1,6 +1,6 @@
 import plan from "../../assets/aboutPic/plan.png";
 import illustration from "../../assets/aboutPic/illustration.jpg";
-import { Link } from "react-router-dom";
+
 const Background = () => {
   return (
     <>
@@ -55,13 +55,14 @@ const Background = () => {
           -- If you're interested in exploring my previous experience and work
           at architectural company and what I accomplished during my time there,
         </span>
-        <Link
+
+        <a
           target="_blank"
           className="text-xl hover:underline text-center hover:text-blue-700 transition duration-100 py-4 font-bold underline "
-          to="/src/assets/pdf/rohitPorfolio.pdf"
+          href="/src/assets/pdf/rohitPorfolio.pdf"
         >
           feel free to check out my design / drawings / 3Models portfolio.
-        </Link>
+        </a>
       </div>
     </>
   );
