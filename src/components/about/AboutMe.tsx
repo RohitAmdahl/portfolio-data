@@ -13,9 +13,9 @@ const AboutMe = () => {
         <p className=" py-4 ">
           I am a dedicated Frontend Developer based in oslo, Norway. I have a
           passion for coding and sharing knowledge.thats why I love to write
-          articles and share my knowledge.when i wrote my first article,about
-          naming things is hard i found my self its a way to express what i fell
-          about coding and naming conventions in programming languages.
+          articles and share my knowledge.when i wrote my first article, naming
+          things is hard i found its good to express what i feel about coding
+          and naming conventions in programming languages.
         </p>
         <p>
           I gained various skills at Noroff school, including HTML, CSS,
@@ -23,7 +23,7 @@ const AboutMe = () => {
           Vite. I've also mastered using Netlify for deployment and learned
           about Git and GitHub for version control. Additionally, I've developed
           proficiency in creating websites without coding using WordPress. I
-          have also gained god knowledge and have used Jest and Cypress for
+          have also gained good knowledge and have used Jest and Cypress for
           testing. I'm expanding my knowledge by self-teaching, focusing on
           achieving certification as a Java SE 17 developer. I'm following the
           OCP Java SE 17 certification book to become a professional Java
