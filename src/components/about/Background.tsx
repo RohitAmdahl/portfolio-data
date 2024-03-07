@@ -2,7 +2,7 @@ import plan from "../../assets/aboutPic/plan.png";
 import illustration from "../../assets/aboutPic/illustration.jpg";
 import { Link } from "react-router-dom";
 import portfolio from "../../assets/pdf/rohitPorfolio.pdf";
-
+import { IoIosLink } from "react-icons/io";
 const Background = () => {
   return (
     <>
@@ -60,9 +60,10 @@ const Background = () => {
 
         <Link
           target="_blank"
-          className="text-xl hover:underline hover:text-blue-700 transition duration-100 py-4 font-bold underline "
+          className="text-xl hover:underline hover:text-blue-700 transition duration-100 py-4 font-bold underline flex justify-center items-center"
           to={portfolio}
         >
+          <IoIosLink size={25} />
           feel free to check out my design / drawings / 3Models portfolio.
         </Link>
       </div>
