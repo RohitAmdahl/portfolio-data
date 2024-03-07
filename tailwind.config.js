@@ -29,7 +29,7 @@ export default {
         pattern: "url('/src/assets/theme.png')",
       },
       fontFamily: {
-        roboto: ["Roboto Condensed", "sans-serif"],
+        // roboto: ["Roboto Condensed", "sans-serif"],
         sixtyfour: ["Sixtyfour", "sans-serif"],
         philosopher: ["'Philosopher'", "sans-serif"],
         workbench: ["'Workbench'", "sans-serif"],

@@ -16,15 +16,27 @@ const AboutMe = () => {
           articles and share my knowledge.when i wrote my first article,about
           naming things is hard i found my self its a way to express what i fell
           about coding and naming conventions in programming languages.
-          <p>
-            <Link
-              className="hover:underline text-blue-700 transition duration-100"
-              to="https://www.linkedin.com/pulse/naming-things-hard-rohit-kumar-amdahl-wwlzf/"
-            >
-              - Naming Things Is Hard:- english version of this article
-            </Link>
-          </p>
-          <p>
+        </p>
+        <p>
+          I gained various skills at Noroff school, including HTML, CSS,
+          JavaScript, TypeScript, React.js, Tailwind CSS, Sass, Bootstrap, and
+          Vite. I've also mastered using Netlify for deployment and learned
+          about Git and GitHub for version control. Additionally, I've developed
+          proficiency in creating websites without coding using WordPress. I
+          have also gained god knowledge and have used Jest and Cypress for
+          testing. I'm expanding my knowledge by self-teaching, focusing on
+          achieving certification as a Java SE 17 developer. I'm following the
+          OCP Java SE 17 certification book to become a professional Java
+          developer.
+        </p>
+        <div className="py-4">
+          <Link
+            className="hover:underline text-blue-700 transition duration-100"
+            to="https://www.linkedin.com/pulse/naming-things-hard-rohit-kumar-amdahl-wwlzf/"
+          >
+            - Naming Things Is Hard:- english version of this article
+          </Link>
+          <div>
             <Link
               className="hover:underline text-blue-700 transition duration-100"
               to="https://www.kode24.no/artikkel/vanskelig-a-lage-gode-navn-synes-rohit-men-har-3-gode-tips/80865316"
@@ -32,20 +44,8 @@ const AboutMe = () => {
               - Naming Things Is Hard:- norwegian version of this article by
               Kode 24.
             </Link>
-          </p>
-          <p className="py-4">
-            I gained various skills at Noroff school, including HTML, CSS,
-            JavaScript, TypeScript, React.js, Tailwind CSS, Sass, Bootstrap, and
-            Vite. I've also mastered using Netlify for deployment and learned
-            about Git and GitHub for version control. Additionally, I've
-            developed proficiency in creating websites without coding using
-            WordPress. I have also gained god knowledge and have used Jest and
-            Cypress for testing. I'm expanding my knowledge by self-teaching,
-            focusing on achieving certification as a Java SE 17 developer. I'm
-            following the OCP Java SE 17 certification book to become a
-            professional Java developer.
-          </p>
-        </p>
+          </div>
+        </div>
       </div>
       <div>
         <JavaSection />
