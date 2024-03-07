@@ -1,5 +1,7 @@
 import plan from "../../assets/aboutPic/plan.png";
 import illustration from "../../assets/aboutPic/illustration.jpg";
+import { Link } from "react-router-dom";
+import portfolio from "../../assets/pdf/rohitPorfolio.pdf";
 
 const Background = () => {
   return (
@@ -51,18 +53,18 @@ const Background = () => {
         </div>
       </div>
       <div className="py-4 px-2">
-        <span>
+        <p>
           -- If you're interested in exploring my previous experience and work
           at architectural company and what I accomplished during my time there,
-        </span>
+        </p>
 
-        <a
+        <Link
           target="_blank"
           className="text-xl hover:underline text-center hover:text-blue-700 transition duration-100 py-4 font-bold underline "
-          href="/src/assets/pdf/rohitPorfolio.pdf"
+          to={portfolio}
         >
           feel free to check out my design / drawings / 3Models portfolio.
-        </a>
+        </Link>
       </div>
     </>
   );
