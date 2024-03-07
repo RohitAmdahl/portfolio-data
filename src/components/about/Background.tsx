@@ -52,7 +52,7 @@ const Background = () => {
           </div>
         </div>
       </div>
-      <div className="py-4 px-2">
+      <div className="py-4 px-2 text-center">
         <p>
           -- If you're interested in exploring my previous experience and work
           at architectural company and what I accomplished during my time there,
@@ -60,7 +60,7 @@ const Background = () => {
 
         <Link
           target="_blank"
-          className="text-xl hover:underline text-center hover:text-blue-700 transition duration-100 py-4 font-bold underline "
+          className="text-xl hover:underline hover:text-blue-700 transition duration-100 py-4 font-bold underline "
           to={portfolio}
         >
           feel free to check out my design / drawings / 3Models portfolio.
