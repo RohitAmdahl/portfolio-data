@@ -12,12 +12,14 @@ const HomePage: React.FC = () => {
     <>
       <section className="w-full">
         <div className="max-w-xs container mx-auto items-center P-2">
-          <span className="w-10 z-10 h-10 rounded-full p-2 absolute bg-orange-600  shadow-inner shadow-yellow-800   "></span>
-          <img
-            src={myPic}
-            alt="profile picture of rohit kumar amdahl in the picture he is smiling and looks very happy, he seems kind person"
-            className=" max-w-xs container mx-auto rotate-3 p-6 shadow-2xl shadow-zinc-600 bg-backgroundColor rounded-xl relative"
-          />
+          <span className="w-10 z-10 h-10 rounded-full p-2 absolute bg-orange-600  shadow-inner shadow-yellow-800"></span>
+          <figure>
+            <img
+              src={myPic}
+              alt="profile picture of rohit kumar amdahl in the picture he is smiling and looks very happy, he seems kind person"
+              className=" max-w-xs container mx-auto rotate-3 p-6 shadow-2xl shadow-zinc-600 bg-backgroundColor rounded-xl relative"
+            />
+          </figure>
         </div>
         <div className="max-w-4xl container mx-auto p-4">
           <h1 className="font-philosopher font-bold text-3xl py-4 text-center">
@@ -63,6 +65,7 @@ const HomePage: React.FC = () => {
             fold-bold relative rounded border-2 border-black bg-white py-4 text-base font-bold text-black transition duration-100 hover:bg-red hover:text-white shadow-shadow"
                 to="https://github.com/rohitamdahl"
                 target="_blank"
+                title="GitHub"
               >
                 <FaGithub size={24} />
                 GitHub
@@ -81,6 +84,7 @@ const HomePage: React.FC = () => {
             fold-bold relative rounded border-2 border-black bg-white py-4 text-base font-bold text-black transition duration-100 hover:bg-red hover:text-white shadow-shadow "
               to="https://www.linkedin.com/feed/"
               target="_blank"
+              title="LinkedIn"
             >
               <FaLinkedin size={24} /> Linkedin
             </Link>
@@ -88,6 +92,7 @@ const HomePage: React.FC = () => {
               to="tel:+4740538464"
               className="flex flex-col px-9 gap-2 items-center font-philosopher text-lg
             fold-bold relative rounded border-2 border-black bg-white py-4 text-base font-bold text-black transition duration-100 hover:bg-red hover:text-white shadow-shadow"
+              title="Phone"
             >
               <FaPhoneAlt size={24} />+ 47 405 384 64
             </Link>
@@ -106,7 +111,7 @@ const HomePage: React.FC = () => {
             fold-bold relative rounded border-2 border-black bg-white py-4 text-base font-bold text-black transition duration-100 hover:bg-red hover:text-white shadow-shadow"
               to="https://discord.com/828741507258646636"
               target="_blank"
-              title="Email"
+              title="Discord"
             >
               <FaDiscord size={24} />
               Discord
