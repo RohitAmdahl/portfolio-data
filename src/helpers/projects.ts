@@ -3,7 +3,7 @@ import holiday from "../assets/projectImg/holidaze_0.png";
 import oneShop from "../assets/projectImg/one-shop.png";
 import aution from "../assets/projectImg/auction.png";
 import rainy from "../assets/projectImg/rainyday.png";
-// import science from "../assets/projectImg/science.png";
+import barnehage from "../assets/project-barnehage.png";
 // import profile from "../assets/projectImg/main_porfolio.png";
 
 export type project = {
@@ -11,6 +11,9 @@ export type project = {
   title: string;
   description: string;
   description_: string;
+  description_1?: string;
+  description_2?: string;
+  description_3?: string;
   imgUrl: string;
   tech?: string[];
   liveDemo: string;
@@ -18,6 +21,26 @@ export type project = {
 };
 
 export const data: project[] = [
+  {
+    id: 1010,
+    title: "Barnehage: A Next.js Journey",
+    description:
+      "Barnehage is not just another project; it's a testament to the journey of learning Next.js. As a Frontend developer eager to delve into the world of server-side rendering (SSR) and static site generation (SSG), I embarked on this journey to grasp the nuances of Next.js. With a focus on UX and UI design, Barnehage became my canvas to experiment, learn, and overcome challenges.",
+    description_:
+      " Project Overview:-  Barnehage is a web application built using Next.js, TypeScript, and Tailwind CSS. It serves as a platform to explore the functionalities of Next.js while implementing modern design principles. The application showcases various components and features, seamlessly integrating user interaction with dynamic content.",
+    description_1:
+      "Learning Next.js:- My journey with Next.js began with diving into its documentation and absorbing tutorials on platforms like YouTube. Armed with a basic understanding, I ventured into coding, creating components and leveraging Next.js's routing capabilities. The transition from React to Next.js was smooth yet enlightening, as I grasped the underlying concepts of server-side rendering and its implications on performance and SEO",
+    description_2:
+      "Deployment Hurdles:-  Deploying Barnehage on Vercel was an insightful experience. While Vercel's seamless deployment process impressed me, I encountered challenges in configuring environment variables and optimizing build settings. Overcoming these hurdles not only enhanced my deployment skills but also provided invaluable insights into the deployment ecosystem.",
+
+    description_3:
+      "Conclusion:- Barnehage isn't just a project; it's a symbol of persistence, curiosity, and the never-ending quest for learning. Through lots of trial and error, fixing problems, and celebrating successes, I've not only gotten better at Next.js but also gained a greater love for web development. Adding Barnehage to my portfolio is just the beginning. I'm excited to keep learning and facing new challenges head-on.",
+
+    imgUrl: barnehage,
+    tech: ["Next.js", "Vercel", "TypeScript", "tailwindcss"],
+    liveDemo: "https://barne-hage-sooty.vercel.app/",
+    githubLink: "https://github.com/RohitAmdahl/barne-hage",
+  },
   {
     id: 1,
     title: "holiDaze,  Final Exam project",

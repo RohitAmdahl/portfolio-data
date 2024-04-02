@@ -7,17 +7,17 @@ import { IoIosGlobe } from "react-icons/io";
 const Project: React.FC = () => {
   return (
     <>
-      <div className="container mx-auto max-w-4xl">
+      <div className="container mx-auto max-w-5xl">
         <h1 className="font-sixtyfour text-3xl py-4 text-center">
           The projects
         </h1>
 
-        <p className=" font-roboto p-4 lg:p-2">
+        <p className="  p-4 lg:p-2">
           Presenting my portfolio of personally crafted projects. Through
           project development, I've garnered invaluable learning experiences,
           honing problem-solving skills.
         </p>
-        <p className=" font-roboto p-4 lg:p-2">
+        <p className="  p-4 lg:p-2">
           I take pride in designing every project using Figma and organizing
           tasks efficiently with Trello, showcasing not just the outcome but the
           journey of continual growth and innovation.
@@ -29,6 +29,9 @@ const Project: React.FC = () => {
           title,
           description,
           description_,
+          description_1,
+          description_2,
+          description_3,
           githubLink,
           imgUrl,
           liveDemo,
@@ -39,11 +42,11 @@ const Project: React.FC = () => {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{
-              delay: 0.9,
+              delay: 0.5,
               type: "string",
               duration: 0.9,
             }}
-            className="m-4 p-4 border-b-2 container mx-auto flex flex-col items-center gap-4 md:max-w-xl lg:max-w-4xl"
+            className="m-4 p-4 border-b-2 container mx-auto flex flex-col items-center gap-4 md:max-w-xl lg:max-w-5xl"
             key={item.id}
           >
             <div className=" p-1">
@@ -55,14 +58,23 @@ const Project: React.FC = () => {
               />
             </div>
             <div className=" lg:py-4 ">
-              <div className="max-w-lg md:max-w-xl lg:p-2 lg:max-w-4xl">
+              <div className="max-w-lg md:max-w-xl lg:p-2 lg:max-w-5xl">
                 <h2 className="font-sixtyfour capitalize text-lg py-3 ">
                   {title}
                 </h2>
-                <p className="font-roboto p-4 lg:p-2">{description}</p>
+                <p className=" p-4 lg:p-2">{description}</p>
               </div>
-              <div className="max-w-lg md:max-w-xl lg:p-2 lg:max-w-4xl">
-                <p className="font-roboto p-4 lg:p-2">{description_}</p>
+              <div className="max-w-lg md:max-w-xl lg:p-2 lg:max-w-5xl">
+                <p className=" p-4 lg:p-2">{description_}</p>
+              </div>
+              <div className="max-w-lg md:max-w-xl lg:p-2 lg:max-w-5xl">
+                <p className=" p-4 lg:p-2">{description_1}</p>
+              </div>
+              <div className="max-w-lg md:max-w-xl lg:p-2 lg:max-w-5xl">
+                <p className=" p-4 lg:p-2">{description_2}</p>
+              </div>
+              <div className="max-w-lg md:max-w-xl lg:p-2 lg:max-w-5xl">
+                <p className=" p-4 lg:p-2">{description_3}</p>
               </div>
               <div className="flex flex-wrap font-philosopher capitalize items-center gap-2 p-4">
                 {tech &&

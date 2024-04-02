@@ -6,12 +6,21 @@ import { Link } from "react-router-dom";
 import { MdOutlineEmail } from "react-icons/md";
 import { FaDiscord } from "react-icons/fa";
 import Publication from "./Publication";
-
+import { motion } from "framer-motion";
 const HomePage: React.FC = () => {
   return (
     <>
       <section className="w-full">
-        <div className="max-w-xs container mx-auto items-center P-2">
+        <motion.div
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{
+            delay: 0.5,
+            type: "string",
+            duration: 0.9,
+          }}
+          className="max-w-xs container mx-auto items-center P-2"
+        >
           <span className="w-10 z-10 h-10 rounded-full p-2 absolute bg-orange-600  shadow-inner shadow-yellow-800"></span>
           <figure>
             <img
@@ -20,7 +29,7 @@ const HomePage: React.FC = () => {
               className=" max-w-xs container mx-auto rotate-3 p-6 shadow-2xl shadow-zinc-600 bg-backgroundColor rounded-xl relative"
             />
           </figure>
-        </div>
+        </motion.div>
         <div className="max-w-4xl container mx-auto p-4">
           <h1 className="font-philosopher font-bold text-3xl py-4 text-center">
             Frontend Developer.

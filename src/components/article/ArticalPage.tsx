@@ -1,13 +1,22 @@
 import { blogs, Blog } from "../../helpers/blog";
 import { Link } from "react-router-dom";
-
+import { motion } from "framer-motion";
 const ArticlePage: React.FC = (): JSX.Element => {
   return (
     <>
       <div className="font-sixtyfour text-3xl ">
         <h1 className="py-4 text-center">Articles</h1>
       </div>
-      <div className="container mx-auto max-w-5xl lg:grid lg:grid-cols-2 flex flex-wrap lg:gap-4 p-6">
+      <motion.div
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{
+          delay: 0.5,
+          type: "string",
+          duration: 0.9,
+        }}
+        className="container mx-auto max-w-5xl lg:grid lg:grid-cols-2 flex flex-wrap lg:gap-4 p-6"
+      >
         {blogs.map((article: Blog) => (
           <div
             key={article.id}
@@ -43,7 +52,7 @@ const ArticlePage: React.FC = (): JSX.Element => {
             </Link>
           </div>
         ))}
-      </div>
+      </motion.div>
     </>
   );
 };
