@@ -4,13 +4,13 @@ import Background from "./Background";
 
 const AboutMe = () => {
   return (
-    <div className="max-w-5xl mx-auto text lg">
+    <div className="max-w-5xl mx-auto text lg ">
       <div className="font-sixtyfour">
         <h1 className="text-3xl text-center py-4 ">About me</h1>
       </div>
 
-      <div>
-        <p className=" py-4 ">
+      <div className=" p-4 ">
+        <p>
           I am a dedicated Frontend Developer based in oslo, Norway. I have a
           passion for coding and sharing knowledge.thats why I love to write
           articles and share my knowledge.when i wrote my first article, naming
@@ -29,7 +29,7 @@ const AboutMe = () => {
           OCP Java SE 17 certification book to become a professional Java
           developer.
         </p>
-        <div className="py-4">
+        <div className="p-4">
           <Link
             className="hover:underline text-blue-700 transition duration-100"
             to="https://www.linkedin.com/pulse/naming-things-hard-rohit-kumar-amdahl-wwlzf/"
