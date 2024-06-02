@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import JavaSection from "./JavaSection";
+// import JavaSection from "./JavaSection";
 import Background from "./Background";
 
 const AboutMe = () => {
@@ -10,7 +10,7 @@ const AboutMe = () => {
       </div>
 
       <div className=" p-4 ">
-        <p>
+        <p className="pb-4">
           I am a dedicated Frontend Developer based in oslo, Norway. I have a
           passion for coding and sharing knowledge.thats why I love to write
           articles and share my knowledge.when i wrote my first article, naming
@@ -24,10 +24,7 @@ const AboutMe = () => {
           about Git and GitHub for version control. Additionally, I've developed
           proficiency in creating websites without coding using WordPress. I
           have also gained good knowledge and have used Jest and Cypress for
-          testing. I'm expanding my knowledge by self-teaching, focusing on
-          achieving certification as a Java SE 17 developer. I'm following the
-          OCP Java SE 17 certification book to become a professional Java
-          developer.
+          testing.
         </p>
         <div className="p-4">
           <Link
@@ -47,9 +44,9 @@ const AboutMe = () => {
           </div>
         </div>
       </div>
-      <div>
+      {/* <div>
         <JavaSection />
-      </div>
+      </div> */}
       <div>
         <Background />
       </div>
