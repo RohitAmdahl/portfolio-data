@@ -27,6 +27,7 @@ export default {
       },
       backgroundImage: {
         pattern: "url('/src/assets/theme.png')",
+        banner: "url('/src/assets/bg_0.png')",
       },
       fontFamily: {
         roboto: ["Roboto Condensed", "sans-serif"],

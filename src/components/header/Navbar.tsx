@@ -2,22 +2,26 @@
 // import { BiSun } from "react-icons/bi";
 import { NavigationLinks, navItems } from "../../helpers/nav";
 import { NavLink } from "react-router-dom";
-
+import myLogo from "../../assets/favikon.png";
 const Navbar: React.FC = () => {
   return (
     <>
-      <div className="max-w-4xl mx-auto">
-        <div className="lg:m-4 m-1 text-center ">
-          <NavLink className=" text-2xl" to="/">
-            <span className="font-sixtyfour p-2 capitalize from-neutral-500 font-normal tracking-wider ">
-              Rohit Kumar Amdahl
-            </span>
-          </NavLink>
-        </div>
-        <nav className="flex py-5 font-philosopher font-bold px-2">
-          <ul className="flex justify-around w-full uppercase font-Roboto border-b-4 border-gray-400 border-dashed py-2 px-2">
+      <div className="max-w-6xl container mx-auto ">
+        <nav className="flex justify-between items-center py-2 font-philosopher font-bold px-2">
+          <div className="lg:m-2 m-1 text-center">
+            <NavLink className=" text-xl" to="/">
+              <figure>
+                <img
+                  src={myLogo}
+                  alt="rohit kumar Amdahl logo"
+                  className="max-w-[40px]"
+                />
+              </figure>
+            </NavLink>
+          </div>
+          <ul className="flex justify-between items-center gap-4 uppercase font-Roboto  ">
             {navItems.map((item: NavigationLinks) => (
-              <li className="px-3" key={item.id}>
+              <li className="" key={item.id}>
                 <NavLink
                   className="text-lg hover:underline hover:text-gray-700 transition duration-100"
                   to={item.link}

@@ -13,3 +13,12 @@
 body {
   @apply bg-pattern bg-stone-100 bg-repeat;
 }
+
+.backgroundTitle {
+  @apply bg-banner bg-no-repeat bg-cover bg-center w-full h-[250px];
+}
+
+/* outline */
+* {
+  outline: 2px solid red;
+}
