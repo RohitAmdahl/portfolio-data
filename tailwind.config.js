@@ -38,6 +38,10 @@ export default {
       boxShadow: {
         shadow: "2px 3px 4px 1px",
       },
+      colors: {
+        backgroundColor: "#282B2C",
+        backgrounD_div: "#1c232c",
+      },
     },
   },
   plugins: [],
