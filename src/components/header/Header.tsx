@@ -1,7 +1,7 @@
 import Navbar from "./Navbar";
 const Header: React.FC = () => {
   return (
-    <header className="bg-white shadow-sm border-2 border-gray-50  ">
+    <header className="bg-slate-900 shadow-sm text-gray-400 bg-fixed   ">
       <Navbar />
     </header>
   );
