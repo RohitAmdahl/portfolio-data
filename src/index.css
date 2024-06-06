@@ -11,8 +11,7 @@
 @tailwind utilities;
 
 body {
-  @apply bg-pattern bg-stone-100 bg-repeat;
-  background-color: rgb(42, 42, 42);
+  @apply bg-pattern bg-stone-100 bg-repeat bg-backgroundColor;
 }
 
 .backgroundTitle {
