@@ -9,7 +9,7 @@ import Publication from "./Publication";
 import { motion } from "framer-motion";
 const HomePage: React.FC = () => {
   return (
-    <section className="mt-5 rounded-2xl ">
+    <div className="mt-5">
       <motion.div
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
@@ -18,25 +18,23 @@ const HomePage: React.FC = () => {
           type: "string",
           duration: 0.9,
         }}
-        className=" max-w-4xl container mx-auto items-center P-2 backgroundTitle"
+        className=" max-w-4xl container mx-auto items-center P-2 backgroundTitle  bg-orange-300 rounded-2xl"
       >
-        <div className="flex justify-between items-center max-w-4xl container mx-auto gap-6 pt-32  ">
-          <div className="flex  items-center">
-            <figure>
-              <img
-                src={myPic}
-                alt="profile picture of rohit kumar amdahl in the picture he is smiling and looks very happy, he seems kind person"
-                className=" max-w-[150px] border-8 border-emerald-600  shadow-2xl shadow-zinc-600 bg-backgroundColor rounded-full "
-              />
-            </figure>
-          </div>
+        <div className="flex justify-between items-baseline max-w-4xl container mx-auto gap-6 pt-24">
+          <figure>
+            <img
+              src={myPic}
+              alt="profile picture of rohit kumar amdahl in the picture he is smiling and looks very happy, he seems kind person"
+              className=" max-w-[150px] border-8 border-emerald-600  shadow-2xl shadow-zinc-600 bg-backgroundColor rounded-3xl "
+            />
+          </figure>
 
           <div className="grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 items-center gap-4">
             <Link
               to="https://www.linkedin.com/feed/"
               target="_blank"
               title="LinkedIn"
-              className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 flex justify-center items-center gap-2 rounded-full"
+              className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 flex justify-center items-center gap-2 rounded-full shadow-lg hover:shadow-inner duration-75 ease-in-out"
             >
               <FaLinkedin size={24} /> Linkedin
             </Link>
@@ -165,7 +163,7 @@ const HomePage: React.FC = () => {
             </Link>
           </div> */}
       </div>
-    </section>
+    </div>
   );
 };
 
