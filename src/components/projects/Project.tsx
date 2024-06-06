@@ -7,7 +7,7 @@ import { IoIosGlobe } from "react-icons/io";
 const Project: React.FC = () => {
   return (
     <>
-      <div className="container mx-auto max-w-5xl">
+      <div className="container mx-auto max-w-5xl bg-backgrounD_div text-white">
         <h1 className="font-sixtyfour text-3xl py-4 text-center">
           The projects
         </h1>
@@ -46,7 +46,7 @@ const Project: React.FC = () => {
               type: "string",
               duration: 0.9,
             }}
-            className="m-4 p-4 border-b-2 container mx-auto flex flex-col items-center gap-4 md:max-w-xl lg:max-w-5xl"
+            className="bg-backgrounD_div text-white m-4 p-4 border-b-2 container mx-auto flex flex-col items-center gap-4 md:max-w-xl lg:max-w-5xl"
             key={item.id}
           >
             <div className=" p-1">
@@ -54,7 +54,7 @@ const Project: React.FC = () => {
                 src={imgUrl}
                 alt="image of laptop mockups a display of projects"
                 title={title}
-                className=""
+                className=" "
               />
             </div>
             <div className=" lg:py-4 ">
