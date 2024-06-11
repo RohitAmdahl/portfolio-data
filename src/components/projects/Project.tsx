@@ -21,7 +21,6 @@ const Project: React.FC = () => {
           journey of continual growth and innovation.
         </p>
       </div>
-
       {data.map((item: project) => {
         const {
           title,
