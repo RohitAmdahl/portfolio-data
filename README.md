@@ -1,6 +1,6 @@
 
 
-![porfolio](https://github.com/RohitAmdahl/portfolio-data/assets/91061651/aab352f1-5cd0-4097-b87b-3af1297251a0)
+![portfolio-1 0](https://github.com/RohitAmdahl/portfolio-data/assets/91061651/8b6e3280-2edf-4765-abe0-5c33c7272f36)
 
 - Home
 - Projects
