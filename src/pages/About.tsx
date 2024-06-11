@@ -2,7 +2,7 @@ import AboutMe from "../components/about/AboutMe";
 
 const About = () => {
   return (
-    <div>
+    <div className=" mt-36">
       <AboutMe />
     </div>
   );

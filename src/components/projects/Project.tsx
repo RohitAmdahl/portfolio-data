@@ -8,9 +8,7 @@ const Project: React.FC = () => {
   return (
     <>
       <div className="container mx-auto max-w-5xl">
-        <h1 className="font-sixtyfour text-3xl py-4 text-center">
-          The projects
-        </h1>
+        <h1 className="text-3xl py-4 text-center">The projects</h1>
 
         <p className="  p-4 lg:p-2">
           Presenting my portfolio of personally crafted projects. Through
@@ -30,8 +28,6 @@ const Project: React.FC = () => {
           description,
           description_,
           description_1,
-          description_2,
-          description_3,
           githubLink,
           imgUrl,
           liveDemo,
@@ -54,7 +50,7 @@ const Project: React.FC = () => {
                 src={imgUrl}
                 alt="image of laptop mockups a display of projects"
                 title={title}
-                className=""
+                className="max-w-[580px] w-full rounded-md"
               />
             </div>
             <div className=" lg:py-4 ">
@@ -62,21 +58,21 @@ const Project: React.FC = () => {
                 <h2 className="font-sixtyfour capitalize text-lg py-3 ">
                   {title}
                 </h2>
-                <p className=" p-4 lg:p-2">{description}</p>
+                <p className=" p-2 lg:p-2">{description}</p>
               </div>
               <div className="max-w-lg md:max-w-xl lg:p-2 lg:max-w-5xl">
-                <p className=" p-4 lg:p-2">{description_}</p>
+                <p className=" p-2 lg:p-2">{description_}</p>
               </div>
               <div className="max-w-lg md:max-w-xl lg:p-2 lg:max-w-5xl">
-                <p className=" p-4 lg:p-2">{description_1}</p>
+                <p className=" p-2 lg:p-2">{description_1}</p>
+              </div>
+              {/* <div className="max-w-lg md:max-w-xl lg:p-2 lg:max-w-5xl">
+                <p className=" p-2 lg:p-2">{description_2}</p>
               </div>
               <div className="max-w-lg md:max-w-xl lg:p-2 lg:max-w-5xl">
-                <p className=" p-4 lg:p-2">{description_2}</p>
-              </div>
-              <div className="max-w-lg md:max-w-xl lg:p-2 lg:max-w-5xl">
-                <p className=" p-4 lg:p-2">{description_3}</p>
-              </div>
-              <div className="flex flex-wrap font-philosopher capitalize items-center gap-2 p-4">
+                <p className=" p-2 lg:p-2">{description_3}</p>
+              </div> */}
+              <div className="flex flex-wrap capitalize items-center gap-2 p-2">
                 {tech &&
                   tech.map((techItem, index) => (
                     <span
@@ -90,7 +86,7 @@ const Project: React.FC = () => {
               <div className=" flex">
                 <div className=" m-4 ">
                   <Link
-                    className=" flex justify-center px-2 gap-2 items-center font-philosopher text-lg fold-bold relative rounded border-2 border-black bg-white py-2 text-base font-bold text-black transition duration-100 hover:bg-red hover:text-white shadow-shadow "
+                    className=" bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 flex justify-center items-center gap-2 rounded-xl shadow-shadow hover:shadow-inner duration-75 ease-in-out shadow-black ring-4 ring-blue-500 text-sm "
                     target="_blank"
                     to={liveDemo}
                   >
@@ -100,7 +96,7 @@ const Project: React.FC = () => {
                 </div>
                 <div className="m-4">
                   <Link
-                    className=" flex justify-center px-2 gap-2 items-center font-philosopher text-lg fold-bold relative rounded border-2 border-black bg-white py-2 text-base font-bold text-black transition duration-100 hover:bg-red hover:text-white shadow-shadow "
+                    className=" bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 flex justify-center items-center gap-2 rounded-xl shadow-shadow hover:shadow-inner duration-75 ease-in-out shadow-black ring-4 ring-blue-500 text-sm "
                     target="_blank"
                     to={githubLink}
                   >

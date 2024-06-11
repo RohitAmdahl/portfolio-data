@@ -1,8 +1,10 @@
 import Navbar from "./Navbar";
 const Header: React.FC = () => {
   return (
-    <header className=" max-w-4xl mx-auto m-2 container items-center">
-      <Navbar />
+    <header className=" w-full pb-5 ">
+      <div className="container mx-auto max-w-3xl items-center  ">
+        <Navbar />
+      </div>
     </header>
   );
 };
