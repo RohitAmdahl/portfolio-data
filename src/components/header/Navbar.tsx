@@ -8,7 +8,7 @@ import { MdOutlineFileDownload } from "react-icons/md";
 const Navbar: React.FC = () => {
   return (
     <>
-      <div className="max-w-4xl mx-auto ">
+      <div className="max-w-4xl container mx-auto px-4 py-2 fixed top-0 left-0 right-0 backdrop-blur-md bg-white/30     ">
         <div className="flex justify-between items-center">
           <div className="lg:m-4  text-center ">
             <NavLink className=" text-2xl" to="/">
@@ -30,12 +30,12 @@ const Navbar: React.FC = () => {
           </div>
         </div>
 
-        <nav className="flex py-2  font-semibold px-2">
-          <ul className="flex justify-between w-full   border-b-2 border-gray-400 border-dashed py-2 px-2">
+        <nav className="flex py-2 font-semibold px-2">
+          <ul className="flex justify-between w-full border-b-2 border-gray-400 border-dashed py-2 px-2">
             {navItems.map((item: NavigationLinks) => (
               <li className="px-1" key={item.id}>
                 <NavLink
-                  className="text-md hover:underline hover:text-gray-700 transition duration-100"
+                  className="text-lg hover:underline hover:text-gray-700 transition duration-100"
                   to={item.link}
                 >
                   {item.name}
