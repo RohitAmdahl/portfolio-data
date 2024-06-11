@@ -10,7 +10,7 @@ import InfoSection from "./InfoSection";
 const HomePage: React.FC = () => {
   return (
     <>
-      <section className="max-w-4xl container mx-auto ">
+      <section className="max-w-4xl container mx-auto mt-32 ">
         <motion.div
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
