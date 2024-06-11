@@ -41,7 +41,7 @@ export default {
       colors: {
         primary: "#413C3C",
         secondary: "#2E2A2A",
-        textColor: "#CFCFCF",
+        textColor: "#2D2C2C",
         link: "#FFFCB5",
       },
     },
