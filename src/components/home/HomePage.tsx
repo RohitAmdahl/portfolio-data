@@ -1,5 +1,5 @@
 import myPic from "../../assets/rohitImg.jpg";
-// import { FaGithub } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa6";
 
 import { Link } from "react-router-dom";
@@ -32,11 +32,11 @@ const HomePage: React.FC = () => {
             <div className="flex justify-between items-end">
               <Link
                 className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 flex justify-center items-center gap-2 rounded-xl shadow-shadow hover:shadow-inner duration-75 ease-in-out shadow-black ring-4 ring-blue-500 text-sm "
-                to="https://www.linkedin.com/feed/"
+                to="https://github.com/RohitAmdahl"
                 target="_blank"
                 title="LinkedIn"
               >
-                <FaLinkedin size={24} /> Linkedin
+                <FaGithub size={24} /> Github
               </Link>
             </div>
           </div>
