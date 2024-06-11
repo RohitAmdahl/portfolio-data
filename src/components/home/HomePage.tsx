@@ -3,14 +3,14 @@ import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa6";
 import { FaPhoneAlt } from "react-icons/fa";
 import { Link } from "react-router-dom";
-import { MdOutlineEmail } from "react-icons/md";
+import { MdOutlineEmail, MdOutlineWorkOutline } from "react-icons/md";
 import { FaDiscord } from "react-icons/fa";
 import Publication from "./Publication";
 import { motion } from "framer-motion";
 const HomePage: React.FC = () => {
   return (
     <>
-      <section className="w-full">
+      <section className="max-w-4xl container mx-auto">
         <motion.div
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
@@ -19,18 +19,35 @@ const HomePage: React.FC = () => {
             type: "string",
             duration: 0.9,
           }}
-          className="max-w-xs container mx-auto items-center P-2"
+          className="P-2  h-52"
         >
-          <span className="w-10 z-10 h-10 rounded-full p-2 absolute bg-orange-600  shadow-inner shadow-yellow-800"></span>
-          <figure>
-            <img
-              src={myPic}
-              alt="profile picture of rohit kumar amdahl in the picture he is smiling and looks very happy, he seems kind person"
-              className=" max-w-xs container mx-auto rotate-3 p-6 shadow-2xl shadow-zinc-600 bg-backgroundColor rounded-xl relative"
-            />
-          </figure>
+          <div className="py-3 max-w-4xl container mx-auto flex justify-between items-baseline gap-3 ">
+            <figure className="flex justify-center items-center p-2">
+              <img
+                src={myPic}
+                alt="profile picture of rohit kumar amdahl in the picture he is smiling and looks very happy, he seems kind person"
+                className=" max-w-[170px]  p-2 shadow-2xl shadow-zinc-600 bg-backgroundColor rounded-full "
+              />
+            </figure>
+            <div className="flex justify-between items-end">
+              <Link
+                className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 flex justify-center items-center gap-2 rounded-xl shadow-shadow hover:shadow-inner duration-75 ease-in-out shadow-black ring-4 ring-blue-500 text-sm "
+                to="https://www.linkedin.com/feed/"
+                target="_blank"
+                title="LinkedIn"
+              >
+                <FaLinkedin size={24} /> Linkedin
+              </Link>
+            </div>
+          </div>
+          <div className=" container max-w-sm  mt-4 text-lg  bg-primary rounded-2xl">
+            <p className=" px-4 text-lg py-2 capitalize flex text-pink-100  gap-2 items-center">
+              <MdOutlineWorkOutline size={20} /> open to new opportunities /
+              Work.
+            </p>
+          </div>
         </motion.div>
-        <div className="max-w-4xl container mx-auto p-4">
+        {/* <div className="max-w-4xl container mx-auto p-4">
           <h1 className="font-philosopher font-bold text-3xl py-4 text-center">
             Frontend Developer.
           </h1>
@@ -53,17 +70,9 @@ const HomePage: React.FC = () => {
           <p className="font-roboto text-xl py-2 text-center">
             - In short i will say, i like to write and i like to code.
           </p>
-        </div>
-        <div className="max-w-4xl font-roboto container mx-auto text-center p-4">
-          <p className="text-xl font-bold lg:text-2xl">
-            – Difficult to create good names, thinks Rohit, but he has 3 good
-            tips. My article is published on kode24.
-          </p>
-        </div>
-        <div className="max-w-4xl container mx-auto p-4">
-          <Publication />
-        </div>
-        <div className="w-full bg-backgroundColor p-4">
+        </div> */}
+
+        {/* <div className="w-full bg-backgroundColor p-4">
           <div className="flex p-2 flex-wrap justify-center gap-6">
             <p className="font-sixtyfour font-bold text-center text-4xl animate-bounce p-3 ">
               Code Code Code..
@@ -88,14 +97,6 @@ const HomePage: React.FC = () => {
             <p> Find me on Outlook, LinkedIn, Discord, or give me a call.</p>
           </div>
           <div className="grid grid-cols-2 gap-4 max-w-2xl container mx-auto p-4">
-            <Link
-              className="flex flex-col px-9 gap-2 items-center font-philosopher text-lg fold-bold relative rounded border-2 border-black bg-white py-4 text-base font-bold text-black transition duration-100 hover:bg-red hover:text-white shadow-shadow partypopper "
-              to="https://www.linkedin.com/feed/"
-              target="_blank"
-              title="LinkedIn"
-            >
-              <FaLinkedin size={24} /> Linkedin
-            </Link>
             <Link
               to="tel:+4740538464"
               className="flex flex-col px-9 gap-2 items-center font-philosopher text-lg
@@ -125,7 +126,10 @@ const HomePage: React.FC = () => {
               Discord
             </Link>
           </div>
-        </div>
+        </div> */}
+      </section>
+      <section>
+        <h1>tohi </h1>
       </section>
     </>
   );
