@@ -1,5 +1,5 @@
 import myPic from "../../assets/rohitImg.jpg";
-// import { FaGithub } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa6";
 
 import { Link } from "react-router-dom";
@@ -36,7 +36,7 @@ const HomePage: React.FC = () => {
                 target="_blank"
                 title="LinkedIn"
               >
-                <FaLinkedin size={24} /> Github
+                <FaGithub size={24} /> Github
               </Link>
             </div>
           </div>
