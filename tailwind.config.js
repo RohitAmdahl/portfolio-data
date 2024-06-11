@@ -27,6 +27,7 @@ export default {
       },
       backgroundImage: {
         pattern: "url('/src/assets/theme.png')",
+        pic: "url('/src/assets/bg.png')",
       },
       fontFamily: {
         roboto: ["Roboto Condensed", "sans-serif"],
@@ -36,6 +37,12 @@ export default {
       },
       boxShadow: {
         shadow: "2px 3px 4px 1px",
+      },
+      colors: {
+        primary: "#413C3C",
+        secondary: "#2E2A2A",
+        textColor: "#CFCFCF",
+        link: "#FFFCB5",
       },
     },
   },

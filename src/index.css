@@ -13,3 +13,10 @@
 body {
   @apply bg-pattern bg-stone-100 bg-repeat;
 }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: 2px solid red;
+}
