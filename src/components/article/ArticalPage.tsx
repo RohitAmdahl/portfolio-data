@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 const ArticlePage: React.FC = (): JSX.Element => {
   return (
     <>
-      <div className="font-sixtyfour text-3xl ">
+      <div className="text-3xl ">
         <h1 className="py-4 text-center">Articles</h1>
       </div>
       <motion.div
