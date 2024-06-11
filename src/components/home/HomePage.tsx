@@ -1,10 +1,6 @@
 import myPic from "../../assets/rohitImg.jpg";
 import { FaGithub } from "react-icons/fa";
-import { FaLinkedin } from "react-icons/fa6";
-
 import { Link } from "react-router-dom";
-// import { MdOutlineEmail, MdOutlineWorkOutline } from "react-icons/md";
-
 import { motion } from "framer-motion";
 import InfoSection from "./InfoSection";
 const HomePage: React.FC = () => {
