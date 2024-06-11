@@ -5,7 +5,7 @@ const Layout = () => {
   return (
     <>
       <Header />
-      <main>
+      <main className="max-w-4xl mx-auto container">
         <Outlet />
       </main>
       <Footer />
