@@ -6,7 +6,7 @@ import InfoSection from "./InfoSection";
 const HomePage: React.FC = () => {
   return (
     <>
-      <section className="max-w-4xl container mx-auto mt-32 ">
+      <section className="max-w-4xl container mx-auto mt-32">
         <motion.div
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
@@ -15,7 +15,7 @@ const HomePage: React.FC = () => {
             type: "string",
             duration: 0.9,
           }}
-          className="P-2 h-52"
+          className="P-2 h-52 lg:mt-36"
         >
           <div className="py-3 max-w-4xl container mx-auto flex justify-between items-baseline gap-3 bg-pic bg-cover  bg-no-repeat px-4  bg-top">
             <figure className="max-w-[150px] w-full pt-14 ">
