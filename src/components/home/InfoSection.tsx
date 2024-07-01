@@ -5,14 +5,15 @@ import { MdOutlineEmail, MdOutlineWorkOutline } from "react-icons/md";
 const InfoSection = () => {
   return (
     <div className="max-w-4xl container mx-auto   text-textColor">
-      <div className="py-4 px-4">
+      <div className="py-2 px-4">
         <div>
-          <h1 className="font-bold text-4xl pt-4  font-serif">
+          <h1 className="font-bold text-4xl pt-2  font-serif">
             Rohit Kumar Amdahl
+            <span className=" font-semibold text-lg px-2">Oslo, Norway.</span>
           </h1>
           <p className="  py-2 text-lg font-semibold flex flex-wrap gap-4 ">
             Internship | Designer & Frontend developer at
-            <span role="link" className="px-2 font-bold">
+            <span role="link" className="px-1 font-bold">
               <a
                 className="underline text-blue-700 hover:text-blue-900 transition duration-100"
                 href="https://cleanseasolutions.no"
@@ -26,7 +27,7 @@ const InfoSection = () => {
               alt="company logo clean sea solutions"
             />
           </p>
-          <p className=" font-semibold text-lg">Oslo, Norway.</p>
+
           <div className=" max-w-sm mt-4 text-lg  bg-primary rounded-2xl">
             <p className=" px-4 text-lg py-2 capitalize flex text-pink-100  gap-2 items-center">
               {" "}
