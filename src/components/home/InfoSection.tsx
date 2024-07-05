@@ -83,6 +83,20 @@ const InfoSection = () => {
             WordPress. I have also gained good knowledge and have used Jest and
             Cypress for testing.
           </p>
+          <ul className="py-4 space-y-2">
+            <li>
+              <strong>Backend Development with .NET (Part-Time)</strong>, Noroff
+              (Starting August 19, 2024) Enrolling in a part-time course in
+              backend development with .NET to build skills in fullstack
+              development.
+            </li>
+            <li>
+              <strong>Goal:</strong> My aim is to become a fullstack developer.
+              I am actively working towards this goal and have already started
+              learning foundational concepts through YouTube and other
+              resources.
+            </li>
+          </ul>
         </div>
       </div>
     </div>
