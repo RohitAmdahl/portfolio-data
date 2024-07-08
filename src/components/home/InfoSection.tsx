@@ -48,15 +48,15 @@ const InfoSection = () => {
             </Link>
           </div>
           <div>
-            <Link
-              to="mailto:rohit_dsigner@outlook.com"
+            <a
+              href="mailto:rohit_dsigner@outlook.com"
               target="_blank"
               title="Email"
-              className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 flex justify-center items-center gap-2 rounded-xl shadow-shadow hover:shadow-inner duration-75 ease-in-out shadow-black ring-4 ring-blue-500 text-sm "
+              className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 flex justify-center items-center gap-2 rounded-xl shadow-shadow hover:shadow-inner duration-75 ease-in-out shadow-black ring-4 ring-blue-500 text-sm"
             >
               <MdOutlineEmail size={22} />
               Email
-            </Link>
+            </a>
           </div>
         </div>
         <div className="py-4">
