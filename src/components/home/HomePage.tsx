@@ -21,6 +21,7 @@ const HomePage: React.FC = () => {
             <figure className="max-w-[150px] w-full pt-14 ">
               <img
                 src={myPic}
+                title="profile picture of rohit kumar amdahl in the picture he is smiling and looks very happy, he seems kind person"
                 alt="profile picture of rohit kumar amdahl in the picture he is smiling and looks very happy, he seems kind person"
                 className=" max-w-[140px] w-full mx-auto border-8 border-emerald-600 shadow-2xl shadow-zinc-600 bg-backgroundColor rounded-full"
               />

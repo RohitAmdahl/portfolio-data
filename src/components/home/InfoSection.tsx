@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 import { FaLinkedin } from "react-icons/fa";
 import { MdOutlineEmail, MdOutlineWorkOutline } from "react-icons/md";
 const InfoSection = () => {
@@ -22,31 +21,30 @@ const InfoSection = () => {
             </span>
           </p>
 
-          <div className=" max-w-md text-lg mt-4 bg-primary rounded-2xl">
-            <p className=" px-4 text-lg py-2 capitalize flex text-pink-100  gap-2 items-center">
-              {" "}
-              <MdOutlineWorkOutline size={20} /> open to new opportunities /
+          <div className=" max-w-md text-lg mt-4 border-2 bg-gray-700 rounded-2xl">
+            <p className=" px-4 text-lg py-2 flex items-center capitalize gap-2 justify-center text-white ">
+              <MdOutlineWorkOutline size={25} /> open to new opportunities /
               Work.
             </p>
           </div>
         </div>
         <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-2 max-w-[520px] w-full py-6 mt-8 gap-8">
           <div>
-            <Link
-              to="https://www.linkedin.com/feed/"
+            <a
+              href="https://www.linkedin.com/feed/"
               target="_blank"
               title="LinkedIn"
-              className="  font-bold py-2 px-4 flex justify-center items-center gap-2 rounded-xl shadow-shadow hover:shadow-inner duration-75 ease-in-out shadow-black ring-4 ring-blue-500 text-sm "
+              className="font-bold py-2 px-4 flex justify-center items-center gap-2   border-b-2 border-blue-500 text-sm "
             >
               <FaLinkedin size={22} /> Linkedin
-            </Link>
+            </a>
           </div>
           <div>
             <a
               href="mailto:rohit_dsigner@outlook.com"
               target="_blank"
               title="Email"
-              className="font-bold py-2 px-4 flex justify-center items-center gap-2 rounded-xl shadow-shadow hover:shadow-inner duration-75 ease-in-out shadow-black ring-4 ring-blue-500 text-sm"
+              className="font-bold py-2 px-4 flex justify-center items-center gap-2   border-b-2 border-blue-500 text-sm "
             >
               <MdOutlineEmail size={22} />
               Email
