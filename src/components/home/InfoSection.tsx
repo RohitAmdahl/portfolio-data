@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import firma from "../../assets/logo_firma.png";
+// import firma from "../../assets/logo_firma.png";
 import { FaLinkedin } from "react-icons/fa";
 import { MdOutlineEmail, MdOutlineWorkOutline } from "react-icons/md";
 const InfoSection = () => {
@@ -21,11 +21,11 @@ const InfoSection = () => {
                 Clean Sea Solutions AS
               </a>
             </span>
-            <img
+            {/* <img
               className="max-w-[100px]"
               src={firma}
               alt="company logo clean sea solutions"
-            />
+            /> */}
           </p>
 
           <div className=" max-w-sm mt-4 text-lg  bg-primary rounded-2xl">
