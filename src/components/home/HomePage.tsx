@@ -21,6 +21,7 @@ const HomePage: React.FC = () => {
             <figure className="max-w-[150px] w-full pt-14 ">
               <img
                 src={myPic}
+                title="profile picture of rohit kumar amdahl in the picture he is smiling and looks very happy, he seems kind person"
                 alt="profile picture of rohit kumar amdahl in the picture he is smiling and looks very happy, he seems kind person"
                 className=" max-w-[140px] w-full mx-auto border-8 border-emerald-600 shadow-2xl shadow-zinc-600 bg-backgroundColor rounded-full"
               />
@@ -30,7 +31,7 @@ const HomePage: React.FC = () => {
                 className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 flex justify-center items-center gap-2 rounded-xl shadow-shadow hover:shadow-inner duration-75 ease-in-out shadow-black ring-4 ring-blue-500 text-sm "
                 to="https://github.com/RohitAmdahl"
                 target="_blank"
-                title="LinkedIn"
+                title="github link"
               >
                 <FaGithub size={24} /> Github
               </Link>
