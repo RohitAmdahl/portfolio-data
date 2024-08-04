@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-// import firma from "../../assets/logo_firma.png";
 import { FaLinkedin } from "react-icons/fa";
 import { MdOutlineEmail, MdOutlineWorkOutline } from "react-icons/md";
 const InfoSection = () => {
@@ -21,14 +20,9 @@ const InfoSection = () => {
                 Clean Sea Solutions AS
               </a>
             </span>
-            {/* <img
-              className="max-w-[100px]"
-              src={firma}
-              alt="company logo clean sea solutions"
-            /> */}
           </p>
 
-          <div className=" max-w-sm mt-4 text-lg  bg-primary rounded-2xl">
+          <div className=" max-w-md text-lg mt-4 bg-primary rounded-2xl">
             <p className=" px-4 text-lg py-2 capitalize flex text-pink-100  gap-2 items-center">
               {" "}
               <MdOutlineWorkOutline size={20} /> open to new opportunities /
@@ -36,13 +30,13 @@ const InfoSection = () => {
             </p>
           </div>
         </div>
-        <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-2 gap-4 max-w-[520px] w-full  py-6 ">
+        <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-2 max-w-[520px] w-full py-6 mt-8 gap-8">
           <div>
             <Link
               to="https://www.linkedin.com/feed/"
               target="_blank"
               title="LinkedIn"
-              className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 flex justify-center items-center gap-2 rounded-xl shadow-shadow hover:shadow-inner duration-75 ease-in-out shadow-black ring-4 ring-blue-500 text-sm "
+              className="  font-bold py-2 px-4 flex justify-center items-center gap-2 rounded-xl shadow-shadow hover:shadow-inner duration-75 ease-in-out shadow-black ring-4 ring-blue-500 text-sm "
             >
               <FaLinkedin size={22} /> Linkedin
             </Link>
@@ -52,7 +46,7 @@ const InfoSection = () => {
               href="mailto:rohit_dsigner@outlook.com"
               target="_blank"
               title="Email"
-              className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 flex justify-center items-center gap-2 rounded-xl shadow-shadow hover:shadow-inner duration-75 ease-in-out shadow-black ring-4 ring-blue-500 text-sm"
+              className="font-bold py-2 px-4 flex justify-center items-center gap-2 rounded-xl shadow-shadow hover:shadow-inner duration-75 ease-in-out shadow-black ring-4 ring-blue-500 text-sm"
             >
               <MdOutlineEmail size={22} />
               Email

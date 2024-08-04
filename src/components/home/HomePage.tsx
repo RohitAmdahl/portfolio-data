@@ -30,7 +30,7 @@ const HomePage: React.FC = () => {
                 className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 flex justify-center items-center gap-2 rounded-xl shadow-shadow hover:shadow-inner duration-75 ease-in-out shadow-black ring-4 ring-blue-500 text-sm "
                 to="https://github.com/RohitAmdahl"
                 target="_blank"
-                title="LinkedIn"
+                title="github link"
               >
                 <FaGithub size={24} /> Github
               </Link>
