@@ -9,17 +9,26 @@ const InfoSection = () => {
             Rohit Kumar Amdahl
             <span className=" font-semibold text-lg px-2">Oslo, Norway.</span>
           </h1>
-          <p className="  py-2 text-lg font-semibold flex flex-wrap gap-4 ">
+          <ul className="font-semibold">
+            <li className="py-2">
+              Pursuing a course in Backend Development with .NET at Noroff
+            </li>
+            <li>
+              Internship | Designer & Frontend developer at
+              <span role="link" className=" font-bold">
+                <a
+                  className="underline text-blue-700 hover:text-blue-900 transition duration-100"
+                  href="https://cleanseasolutions.no"
+                >
+                  Clean Sea Solutions AS
+                </a>
+              </span>
+            </li>
+          </ul>
+
+          {/* <p className="  py-2 text-lg font-semibold flex flex-wrap gap-2 ">
             Internship | Designer & Frontend developer at
-            <span role="link" className="px-1 font-bold">
-              <a
-                className="underline text-blue-700 hover:text-blue-900 transition duration-100"
-                href="https://cleanseasolutions.no"
-              >
-                Clean Sea Solutions AS
-              </a>
-            </span>
-          </p>
+          </p> */}
 
           <div className=" max-w-md text-lg mt-4 border-2 bg-gray-700 rounded-2xl">
             <p className=" px-4 text-lg py-2 flex items-center capitalize gap-2 justify-center text-white ">
@@ -51,42 +60,16 @@ const InfoSection = () => {
             </a>
           </div>
         </div>
-        <div className="py-4">
-          <p>
-            Welcome to my website! I'm a dedicated Frontend Developer based in
-            Oslo, Norway, currently expanding my expertise in Java and delving
-            into the world of object-oriented programming. In 2021, I began a
-            two-year journey into Frontend Development at Noroff. I love coding
-            and expressing that love through writing.I write about different
-            topics, aiming to make them easy for everyone to understand. Sharing
-            knowledge is important to me, and I enjoy learning from other
-            programmers.
-          </p>
-          <p className="py-4">
-            I have bachelors in Accessory Design and later worked in
-            architectural firms, drawing plans, and creating 3D animations.
-          </p>
-          <p>
-            I gained various skills at Noroff school, including HTML, CSS,
-            JavaScript, TypeScript, React.js, Tailwind CSS, Sass, Bootstrap, and
-            Vite. I've also mastered using Netlify for deployment and learned
-            about Git and GitHub for version control. Additionally, I've
-            developed proficiency in creating websites without coding using
-            WordPress. I have also gained good knowledge and have used Jest and
-            Cypress for testing.
-          </p>
-          <ul className="py-4 space-y-2">
-            <li>
-              <strong>Backend Development with .NET (Part-Time)</strong>, Noroff
-              (Starting August 19, 2024) Enrolling in a part-time course in
-              backend development with .NET to build skills in fullstack
-              development.
+        <div>
+          <ul className="space-y-2">
+            <li className="py-4">
+              I have bachelors in Accessory Design and later worked in
+              architectural firms, drawing plans, and creating 3D animations.
             </li>
             <li>
               <strong>Goal:</strong> My aim is to become a fullstack developer.
               I am actively working towards this goal and have already started
-              learning foundational concepts through YouTube and other
-              resources.
+              learning foundational concepts through my Backend course.
             </li>
           </ul>
         </div>
