@@ -14,7 +14,8 @@ const InfoSection = () => {
               Pursuing a course in Backend Development with .NET at Noroff
             </li>
             <li>
-              Internship | Designer & Frontend developer at
+              Mai.2024 - Aug.2024 - Internship | Designer & Frontend developer
+              at
               <span role="link" className=" font-bold">
                 <a
                   className="underline text-blue-700 hover:text-blue-900 transition duration-100"
@@ -25,11 +26,6 @@ const InfoSection = () => {
               </span>
             </li>
           </ul>
-
-          {/* <p className="  py-2 text-lg font-semibold flex flex-wrap gap-2 ">
-            Internship | Designer & Frontend developer at
-          </p> */}
-
           <div className=" max-w-md text-lg mt-4 border-2 bg-gray-700 rounded-2xl">
             <p className=" px-4 text-lg py-2 flex items-center capitalize gap-2 justify-center text-white ">
               <MdOutlineWorkOutline size={25} /> open to new opportunities /
@@ -43,7 +39,8 @@ const InfoSection = () => {
               href="https://www.linkedin.com/feed/"
               target="_blank"
               title="LinkedIn"
-              className="font-bold py-2 px-4 flex justify-center items-center gap-2   border-b-2 border-blue-500 text-sm "
+              className="font-bold py-2 px-4 flex justify-center items-center gap-2   border-b-2 border-blue-500 text-sm
+               hover:border-blue-950 transition duration-100"
             >
               <FaLinkedin size={22} /> Linkedin
             </a>
@@ -53,7 +50,8 @@ const InfoSection = () => {
               href="mailto:rohit_dsigner@outlook.com"
               target="_blank"
               title="Email"
-              className="font-bold py-2 px-4 flex justify-center items-center gap-2   border-b-2 border-blue-500 text-sm "
+              className="font-bold py-2 px-4 flex justify-center items-center gap-2   border-b-2 border-blue-500 text-sm
+               hover:border-blue-950 transition duration-100"
             >
               <MdOutlineEmail size={22} />
               Email
